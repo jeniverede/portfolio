@@ -1,6 +1,6 @@
 .my-services {
-  background-color: var(--clr-dark);
   background-image: url(./services-bg.jpg);
+  background-color: var(--clr-dark);
   background-size: cover;
   /* background-blend-mode: multiply, darkens the image */
   color: var(--clr-light);
