@@ -1,6 +1,6 @@
 .footer {
   background: var(--clr-dark);
-  color: var(--clr-accent);
+  color: var(--clr-light);
   text-align: center;
   padding-top: 1.5em;
   padding-bottom: 2.5em;
@@ -16,7 +16,7 @@
 
 .footer__link:hover,
 .social-list__link:hover {
-  color: var(--clr-light);
+  color: var(--clr-accent);
 }
 
 .footer__link:hover {
@@ -36,11 +36,11 @@
 }
 
 .social-list__link {
-  color: var(--clr-accent);
+  color: var(--clr-light);
 }
 
 .container_impressum a {
-  color: var(--clr-accent);
+  color: var(--clr-light);
   text-decoration: none;
   font-size: var(--fs-h3);
   font-weight: var(--fw-bold);

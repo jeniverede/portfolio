@@ -8,7 +8,7 @@
 }
 
 .section__title--services {
-  color: var(--clr-accent);
+  color: var(--clr-light);
   position: relative;
 }
 
@@ -16,12 +16,12 @@
 .section__title--services::after {
   content: "";
   display: block;
-  width: 2em;
+  width: 10em;
   height: 2px;
   margin: auto;
   margin-top: 0.5em;
   margin-bottom: 1em;
-  background: var(--clr-light);
+  background: var(--clr-accent);
   /* or currentColor to match accent color */
   opacity: 0.75;
 }

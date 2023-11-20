@@ -42,7 +42,7 @@ textarea {
 
 label {
   font-family: var(--ff-primary);
-  color: var(--clr-accent);
+  color: var(--clr-light);
   margin-top: 1rem;
 }
 
@@ -51,7 +51,7 @@ input[type="submit"] {
   cursor: pointer;
   background: var(--clr-accent);
   font-family: var(--ff-primary);
-  color: black;
+  color: var(--clr-light);
   border: none;
   border-radius: 5px;
 }
