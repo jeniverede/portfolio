@@ -9,7 +9,7 @@ export default function MuseumGuideBerlin() {
                     <strong>Museum Guide Berlin</strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">Mobile/Desktop/Tablet app for iOS</p>
-                <img src="/portfolio-01.jpg" alt="" className="intro__img" />
+                <img src="/MGB cover img 2.jpg" alt="Museum Guide Berlin mockups" className="intro__img" />
             </section>
 
             <div className="portfolio-item-individual">

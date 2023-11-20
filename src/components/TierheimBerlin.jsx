@@ -9,7 +9,7 @@ export default function TierheimBerlin() {
                     <strong>Tierheim Berlin</strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">Mobile app for iOS & website redesign</p>
-                <img src="/portfolio-02.jpg" alt="" className="intro__img" />
+                <img src="/Tierheim Berlin cover img 2.jpg" alt="Tierheim Berlin mockups" className="intro__img" />
             </section>
 
             <div className="portfolio-item-individual">
