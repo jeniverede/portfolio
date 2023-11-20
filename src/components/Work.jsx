@@ -27,7 +27,7 @@ export default function Work() {
                         <p className="portfolio__item--title">Costume Blog</p>
                     </a>
 
-                    <a href="#" target="blank" className="portfolio__item">
+                    <a href="https://rothrock-portfolio.netlify.app/" target="blank" className="portfolio__item">
                         <img src="/portfolio_code.png" alt="" className="portfolio__img" />
                         <p className="portfolio__item--title">Portfolio - Github</p>
                     </a>
