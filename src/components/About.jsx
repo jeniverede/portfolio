@@ -15,7 +15,7 @@ export default function About() {
                 </p>
             </div>
 
-            <img src="/dev-jane-02.jpg" alt="image Jane" className="about-me__img" />
+            <img src="https://placehold.co/200x332" alt="image Jane" className="about-me__img" />
         </section>
 
 
