@@ -1,0 +1,50 @@
+.my-services {
+  background-color: var(--clr-dark);
+  background-image: url(./services-bg.jpg);
+  background-size: cover;
+  /* background-blend-mode: multiply, darkens the image */
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.section__title--services {
+  color: var(--clr-accent);
+  position: relative;
+}
+
+/* psuedo element/decorative bar after title, must have '' with empty content to show up */
+.section__title--services::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 2px;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  background: var(--clr-light);
+  /* or currentColor to match accent color */
+  opacity: 0.75;
+}
+
+.services {
+  margin-bottom: 4em;
+}
+
+.service {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .services {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* + indicator looks at sibling to the right */
+  .service + .service {
+    margin-left: 2em;
+  }
+}

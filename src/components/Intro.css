@@ -1,0 +1,72 @@
+.intro {
+  position: relative;
+}
+
+.intro__img {
+  box-shadow: var(--bs);
+}
+
+.section__subtitle--intro {
+  display: inline-block;
+}
+
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+
+  .intro__img {
+    grid-area: img;
+    min-width: 250px;
+    position: relative;
+    z-index: 2;
+  }
+  /* Layout only, text styling in Typography */
+  .section__subtitle--intro {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 4em);
+  }
+}
+
+.container_button   {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.btn a {
+  color: var(--clr-dark);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: var(--ff-secondary);
+  font-size: 1.125rem;
+  font-weight: var(--fw-bold);
+  letter-spacing: 2px;
+}
+
+.btn {
+  background-color: (--clr-accent);
+  border: 3px solid var(--clr-accent);
+  padding: 1em 2.5em;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  outline: 3px solid var(--clr-accent);
+  outline-offset: 3px;
+}
