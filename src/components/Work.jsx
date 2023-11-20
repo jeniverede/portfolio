@@ -17,7 +17,7 @@ export default function Work() {
                         <p className="portfolio__item--title">Collection Digital</p>
                     </a>
 
-                    <a href="#" target="blank" className="portfolio__item">
+                    <a href="https://magenta-cupcake-bdd76f.netlify.app/" target="blank" className="portfolio__item">
                         <img src="/cookbook.png" alt="" className="portfolio__img" />
                         <p className="portfolio__item--title">Cookbook</p>
                     </a>
