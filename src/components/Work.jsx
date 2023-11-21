@@ -14,7 +14,7 @@ export default function Work() {
                 <div className="portfolio">
                     <a href="https://collection-digital.netlify.app/" target="blank" className="portfolio__item">
                         <img src="/CD Mockup MacBook Pro 14.jpeg" alt="" className="portfolio__img" />
-                        <p className="portfolio__item--title">Collection Digital</p>
+                        <p className="portfolio__item--title">Collection Digital - Group project</p>
                     </a>
 
                     <a href="https://magenta-cupcake-bdd76f.netlify.app/" target="blank" className="portfolio__item">
