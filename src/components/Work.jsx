@@ -13,17 +13,12 @@ export default function Work() {
                 
                 <div className="portfolio">
                     <a href="https://collection-digital.netlify.app/" target="blank" className="portfolio__item">
-                        <img src="/CD Mockup MacBook Pro 14.jpeg" alt="" className="portfolio__img" />
+                        <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="" className="portfolio__img" />
                         <p className="portfolio__item--title">Collection Digital - Group project</p>
                     </a>
 
-                    <a href="https://magenta-cupcake-bdd76f.netlify.app/" target="blank" className="portfolio__item">
-                        <img src="/cookbook.png" alt="" className="portfolio__img" />
-                        <p className="portfolio__item--title">Cookbook - Group project</p>
-                    </a>
-
                     <a href="https://costumecollectionsblog.netlify.app" target="blank" className="portfolio__item">
-                        <img src="/CostumeCollectionsBlog.png" alt="" className="portfolio__img" />
+                        <img src="/CCB 401.png" alt="" className="portfolio__img" />
                         <p className="portfolio__item--title">Costume Blog</p>
                     </a>
 
