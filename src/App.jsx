@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 /* page/components imports */
 import MuseumGuideBerlin from "./components/MuseumGuideBerlin";
 import TierheimBerlin from './components/TierheimBerlin';
+import SecondhandShadows from './components/SecondhandShadows';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/museumguideberlin" element={<MuseumGuideBerlin />} />
         <Route path="/tierheimberlin" element={<TierheimBerlin />} />
+        <Route path="/secondhandshadows" element={<SecondhandShadows />} />
         <Route path="*" element={<Error />} />
       </Routes>
 

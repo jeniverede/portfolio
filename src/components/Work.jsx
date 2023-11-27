@@ -46,8 +46,8 @@ export default function Work() {
                         <p className="portfolio__item--title">Tierheim Berlin</p>
                     </a>
 
-                    <a href="#" target="blank" className="portfolio__item">
-                        <img src="/portfolio-07.jpg" alt="" className="portfolio__img" />
+                    <a href="secondhandshadows" target="blank" className="portfolio__item">
+                        <img src="/ShS Card Mockup iOS 401.jpg" alt="" className="portfolio__img" />
                         <p className="portfolio__item--title">Second hand Shadows</p>
                     </a>
                 </div>
