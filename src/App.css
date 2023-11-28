@@ -1,12 +1,12 @@
 /* Custom properties, method for declaring re-usable values and can be updated */
 :root {
     /* font-family */
-    --ff-primary: "Source Sans Pro", sans-serif;
+    --ff-primary: "Poppins", sans-serif;
     --ff-secondary: "Source Code Pro", monospace;
   
     /* font-weight */
     --fw-reg: 300;
-    --fw-bold: 900;
+    --fw-bold: 700;
   
     /* colors */
     --clr-light: #fff;
