@@ -6,28 +6,28 @@ export default function Work() {
         <>
             <section className="my-work" id="work">
                 <h2 className="section__title section__title">My Work</h2>
-        
+
                 <h3 className="section__title section__title--work">Web Development</h3>
-                
+
                 <a href="https://github.com/jeniverede" target="blank" className="btn">My Github repository</a>
-                
+
                 <div className="portfolio">
-                    <a href="https://collection-digital.netlify.app/" target="blank" className="portfolio__item">
+                    <a href="/collectiondigital" target="blank" className="portfolio__item">
                         <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="" className="portfolio__img" />
                         <p className="portfolio__item--title">Collection Digital - Group project</p>
                     </a>
-
-                    <a href="https://costumecollectionsblog.netlify.app" target="blank" className="portfolio__item">
+                    {/* https://collection-digital.netlify.app */}
+                    <a href="/costumeblog" target="blank" className="portfolio__item">
                         <img src="/CCB 401.png" alt="" className="portfolio__img" />
                         <p className="portfolio__item--title">Costume Blog</p>
                     </a>
-
-                    <a href="https://github.com/jeniverede/portfolio.git" target="blank" className="portfolio__item">
+                    {/* https://costumecollectionsblog.netlify.app */}
+                    <a href="/githubportfolio" target="blank" className="portfolio__item">
                         <img src="/portfolio_code.png" alt="" className="portfolio__img" />
                         <p className="portfolio__item--title">Portfolio - Github</p>
                     </a>
                 </div>
-
+                    {/* https://github.com/jeniverede/portfolio.git */}
                 <h3 className="section__title section__title--work">UI Design</h3>
 
                 <div className="portfolio">
