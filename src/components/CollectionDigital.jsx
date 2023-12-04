@@ -8,16 +8,24 @@ export default function CollectionDigital() {
                 <h1 className="section__title section__title--intro">
                     <strong>Collection Digital</strong>
                 </h1>
-                <p className="section__subtitle section__subtitle--intro">Mobile/Desktop/Tablet app for iOS</p>
-                <img src="/MGB cover img 2.jpg" alt="Museum Guide Berlin mockups" className="intro__img" />
+                <p className="section__subtitle section__subtitle--intro">Desktop app for collectors and small museums</p>
+                <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="Collection Digital mockups" className="intro__img" />
             </section>
 
             <div className="portfolio-item-individual">
-                <p>A location based mobile app for Berlin’s museums. The mobile app collects and presents information for all museums in Berlin, providing users with one place to access information about museums and exhibitions.
+                <p>Design/Concept: The concept for Collection Digital came out of my time living in London, working as a collection assistant for small museums and individual collectors.</p>
+                <p className="bold-text">HTML, CSS/Bootstrap, JavaScript, React, Node.js, MongoDB</p>
+                
 
-                My vision is that once information is easier to find in one dedicated app; visitors will prioritise museums in their free time.</p>
+                <div className="btn-lg">
+                    <a href="https://collection-digital.netlify.app" target="blank" className="btn-lg">Visit Collection Digital</a>
 
-                <img src="/Museum Guide Berlin v4.jpg" alt="Museum Guide Berlin case study" />
+                    <a href="https://github.com/jeniverede?tab=stars" target="blank" className="btn-lg">Github repository</a>
+                </div>
+                
+                <img src="/CD Mockups.jpg" alt="Collection Digtial mockups" />
+
+                <p>Collaborators: Sona Chaboud, Jennifer Rothrock, Kevin Kalus & Reagan Sassan</p>
 
             </div>
         </>
