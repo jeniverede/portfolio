@@ -16,13 +16,13 @@
 }
 
 /* psuedo element/decorative bar after title, must have '' with empty content to show up */
-.section__title--work::after {
+.section__title--work::before {
   content: "";
   display: block;
   width: 20em;
   height: 2px;
   margin: auto;
-  margin-top: 1em;
+  margin-bottom: 1em;
   background: var(--clr-accent);
   /* or currentColor to match accent color */
   opacity: 0.75;

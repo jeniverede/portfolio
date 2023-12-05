@@ -2,7 +2,7 @@
 :root {
     /* font-family */
     --ff-primary: "Poppins", sans-serif;
-    --ff-secondary: "Source Code Pro", monospace;
+    --ff-secondary: "Roboto Mono", sans-serif;
   
     /* font-weight */
     --fw-reg: 300;
@@ -13,8 +13,8 @@
     --clr-dark: #242424;
     --clr-accent: #682bd7;
   
-    /* font-size */
-    --fs-h1: 3rem;
+    /* font-size 48px, 36px, 20px,16px */
+    --fs-h1: 3rem; 
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
@@ -76,10 +76,10 @@ strong {
   text-decoration: none;
   cursor: pointer;
   font-family: var(--ff-secondary);
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   text-transform: lowercase;
   letter-spacing: 2px;
-  font-weight: var(--fw-bold);
+  /* font-weight: var(--fw-bold); */
   transition: transform 200ms ease-in-out;
 }
 

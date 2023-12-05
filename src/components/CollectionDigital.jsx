@@ -15,15 +15,16 @@ export default function CollectionDigital() {
             <div className="portfolio-item-individual">
                 <p>Design/Concept: The concept for Collection Digital came out of my time living in London, working as a collection assistant for small museums and individual collectors.</p>
                 <p className="bold-text">HTML, CSS/Bootstrap, JavaScript, React, Node.js, MongoDB</p>
-                
 
-                <div className="btn-lg">
-                    <a href="https://collection-digital.netlify.app" target="blank" className="btn-lg">Visit Collection Digital</a>
-
-                    <a href="https://github.com/jeniverede?tab=stars" target="blank" className="btn-lg">Github repository</a>
+                <div className="container_button">
+                    <a href="https://collection-digital.netlify.app" target="blank" className="btn">Visit Collection Digital</a>
                 </div>
-                
+
                 <img src="/CD Mockups.jpg" alt="Collection Digtial mockups" />
+
+                <div className="container_button">
+                    <a href="https://github.com/jeniverede?tab=stars" target="blank" className="btn">Github repository</a>
+                </div>
 
                 <p>Collaborators: Sona Chaboud, Jennifer Rothrock, Kevin Kalus & Reagan Sassan</p>
 

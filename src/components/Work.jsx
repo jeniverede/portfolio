@@ -9,8 +9,6 @@ export default function Work() {
 
                 <h3 className="section__title section__title--work">Web Development</h3>
 
-                <a href="https://github.com/jeniverede" target="blank" className="btn">My Github repository</a>
-
                 <div className="portfolio">
                     <a href="/collectiondigital" target="blank" className="portfolio__item">
                         <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="" className="portfolio__img" />
@@ -27,6 +25,9 @@ export default function Work() {
                         <p className="portfolio__item--title">Portfolio - Github</p>
                     </a>
                 </div>
+
+                <a href="https://github.com/jeniverede" target="blank" className="btn">My Github repository</a>
+
                     {/* https://github.com/jeniverede/portfolio.git */}
                 <h3 className="section__title section__title--work">UI Design</h3>
 
