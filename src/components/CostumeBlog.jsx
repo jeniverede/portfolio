@@ -8,16 +8,23 @@ export default function CostumeBlog() {
                 <h1 className="section__title section__title--intro">
                     <strong>Costume Collections Blog</strong>
                 </h1>
-                <p className="section__subtitle section__subtitle--intro">Mobile/Desktop/Tablet app for iOS</p>
-                <img src="/MGB cover img 2.jpg" alt="Museum Guide Berlin mockups" className="intro__img" />
+                <p className="section__subtitle section__subtitle--intro">Personal blog for costume collections</p>
+                <img src="/CCB 401.png" alt="Costume Collections Blog" className="intro__img" />
             </section>
 
             <div className="portfolio-item-individual">
-                <p>A location based mobile app for Berlin’s museums. The mobile app collects and presents information for all museums in Berlin, providing users with one place to access information about museums and exhibitions.
+                <p>Design/Concept: A blog documenting the costume collections I visit on my travels.</p>
+                <p className="bold-text">HTML, CSS</p>
 
-                My vision is that once information is easier to find in one dedicated app; visitors will prioritise museums in their free time.</p>
+                <div className="container_button">
+                    <a href="https://costumecollectionsblog.netlify.app" target="blank" className="btn">Visit the blog</a>
+                </div>
 
-                <img src="/Museum Guide Berlin v4.jpg" alt="Museum Guide Berlin case study" />
+                <img src="/CCB full screen.png" alt="Collection Digtial mockups" />
+
+                <div className="container_button">
+                    <a href="https://github.com/jeniverede?tab=stars" target="blank" className="btn">Github repository</a>
+                </div>
 
             </div>
         </>

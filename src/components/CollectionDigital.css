@@ -13,7 +13,6 @@
 
 .bold-text {
   font-weight: var(--fw-bold);
-
 }
 
 /* psuedo element/decorative bar after title, must have '' with empty content to show up */
