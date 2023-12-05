@@ -17,7 +17,9 @@ export default function CollectionDigital() {
                 <p className="bold-text">HTML, CSS/Bootstrap, JavaScript, React, Node.js, MongoDB</p>
 
                 <div className="container_button">
-                    <a href="https://collection-digital.netlify.app" target="blank" className="btn">Visit Collection Digital</a>
+                    <a href="https://collection-digital.netlify.app"
+                        target="blank"
+                        className="btn">Visit Collection Digital</a>
                 </div>
 
                 <img src="/CD Mockups.jpg" alt="Collection Digtial mockups" />
