@@ -13,7 +13,7 @@ export default function Intro() {
             </section>
 
             <div className="container_button">
-                <a href="https://drive.google.com/file/d/15l2c_ssa-9Q6fEp2S1LKyagL-l7bOREb/view?usp=sharing" target="blank" className="btn">resume</a>
+                <a href="https://drive.google.com/file/d/12VS6GJ974OjF-4VmffzIx7YN9dtJcdfp/view?usp=sharing" target="blank" className="btn">resume</a>
             </div>
         </>
     );
