@@ -81,11 +81,6 @@ section {
   padding: 5em 2em;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 strong {
   font-weight: var(--fw-bold);
 }

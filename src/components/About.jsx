@@ -17,7 +17,5 @@ export default function About() {
 
             <img src="Jen working purple.jpg" alt="image Jen working" className="about-me__img" />
         </section>
-
-
     );
 }

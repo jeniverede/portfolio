@@ -11,17 +11,17 @@ export default function Work() {
 
                 <div className="portfolio">
                     <a href="/collectiondigital" target="blank" className="portfolio__item">
-                        <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="" className="portfolio__img" />
+                        <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="Collection Digital Homepage" className="portfolio__img" />
                         <p className="portfolio__item--title">Collection Digital - Group project</p>
                     </a>
                     {/* https://collection-digital.netlify.app */}
                     <a href="/costumeblog" target="blank" className="portfolio__item">
-                        <img src="/CCB 401.png" alt="" className="portfolio__img" />
+                        <img src="/CCB 401.png" alt="Costume Blog homepage" className="portfolio__img" />
                         <p className="portfolio__item--title">Costume Blog</p>
                     </a>
                     {/* https://costumecollectionsblog.netlify.app */}
                     <a href="/githubportfolio" target="blank" className="portfolio__item">
-                        <img src="/portfolio_code.png" alt="" className="portfolio__img" />
+                        <img src="/portfolio_code.png" alt="VS Code for portfolio" className="portfolio__img" />
                         <p className="portfolio__item--title">Portfolio - Github</p>
                     </a>
                 </div>
