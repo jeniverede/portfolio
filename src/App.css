@@ -7,29 +7,29 @@
   /* Font-face rules */
   @font-face {
     font-family: "Poppins";
-    src: url("/src/assets/fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
-        url("/src/assets/fonts/Poppins/poppins-light-webfont.woff") format("woff");
+    src: url("../fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-light-webfont.woff") format("woff");
     /* Additional font-face properties like font-weight, font-style, etc. */
   }
 
   @font-face {
     font-family: "Poppins";
-    src: url("/src/assets/fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
-        url("/src/assets/fonts/Poppins/poppins-bold-webfont.woff") format("woff");
+    src: url("../fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
+        url("../fonts/Poppins/poppins-bold-webfont.woff") format("woff");
     /* Additional font-face properties like font-weight, font-style, etc. */
   }
 
   @font-face {
     font-family: "Roboto Mono";
-    src: url("/src/assets/fonts/Roboto Mono/RobotoMono-Light.woff2") format("woff2"),
-        url("/src/assets/fonts/Roboto Mono/RobotoMono-Light.woff") format("woff");
+    src: url("../fonts/Roboto Mono/RobotoMono-Light.woff2") format("woff2"),
+        url("../fonts/Roboto Mono/RobotoMono-Light.woff") format("woff");
     /* Additional font-face properties like font-weight, font-style, etc. */
   }
 
   @font-face {
     font-family: "Roboto Mono";
-    src: url("/src/assets/fonts/Roboto Mono/RobotoMono-Bold.woff2") format("woff2"),
-        url("/src/assets/fonts/Roboto Mono/RobotoMono-Bold.woff") format("woff");
+    src: url("../fonts/Roboto Mono/RobotoMono-Bold.woff2") format("woff2"),
+        url("../fonts/Roboto Mono/RobotoMono-Bold.woff") format("woff");
     /* Additional font-face properties like font-weight, font-style, etc. */
   }
 
