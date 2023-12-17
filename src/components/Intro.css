@@ -7,10 +7,6 @@
   box-shadow: var(--bs);
 }
 
-.section__subtitle--intro {
-  display: inline-block;
-}
-
 .container_button {
   display: flex;
   justify-content: center;
@@ -60,7 +56,7 @@
     position: relative;
     z-index: 2;
   }
-  /* Layout only, text styling in Typography */
+  /* Layout only, text styling in App.css - Typography */
   .section__subtitle--intro {
     align-self: start;
     grid-column: -1 / 1;

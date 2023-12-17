@@ -2,7 +2,7 @@
 :root {
   /* font-family */
   --ff-primary: "Poppins", sans-serif;
-  --ff-secondary: "Roboto-Mono", sans-serif;
+  --ff-secondary: "Roboto Mono", sans-serif;
 
   /* font-weight */
   --fw-light: 300;
@@ -26,28 +26,28 @@
 
 /* Font-face rules outside of :root */
 @font-face {
-  font-family: "Poppins";
+  font-family: var(--ff-primary);
   src: url("./assets/fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
     url("./assets/fonts/Poppins/poppins-light-webfont.woff") format("woff");
   font-weight: var(--fw-light);
 }
 
 @font-face {
-  font-family: "Poppins";
+  font-family: var(--ff-primary);
   src: url("./assets/fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
     url("./assets/fonts/Poppins/poppins-bold-webfont.woff") format("woff");
   font-weight: var(--fw-bold);
 }
 
 @font-face {
-  font-family: "Roboto-Mono";
+  font-family: var(--ff-secondary);
   src: url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
     url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff") format("woff");
   font-weight: var(--fw-light);
 }
 
 @font-face {
-  font-family: "Roboto-Mono";
+  font-family: var(--ff-secondary);
   src: url("./assets/fonts/Roboto-Mono/Roboto-Mono-Bold.woff2") format("woff2"),
     url("./assets/fonts/Roboto-Mono/Roboto-Mono-Bold.woff") format("woff");
   font-weight: var(--fw-bold);
@@ -136,6 +136,7 @@ h3 {
 }
 
 .section__title--intro {
+  display: inline-block;
   font-weight: var(--fw-light);
 }
 
