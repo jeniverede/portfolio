@@ -18,7 +18,7 @@ export default function SecondhandShadows() {
                 <br/>
                 Vinted and eBayKleinanziegen are popular apps to buy and sell second hand clothing but there is no dedicated app for people in alternative subcultures wanting to sell their used clothing.</p>
 
-                <img src="/ShS Presentation v4.jpg" alt="Tierheim Berlin case study" />
+                <img src="/ShS Presentation v4.jpg" alt="Tierheim Berlin case study" className="case-study" />
 
             </div>
         </>

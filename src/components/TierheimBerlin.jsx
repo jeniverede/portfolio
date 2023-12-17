@@ -17,7 +17,7 @@ export default function TierheimBerlin() {
 
                 Currently Tierheim Berlin only has a website. My idea was to update and simplify the visual design of the website and develop a mobile app to make pet adoption and donation easier.</p>
 
-                <img src="/Tierheim Berlin v4.jpg" alt="Tierheim Berlin case study" />
+                <img src="/Tierheim Berlin v4.jpg" alt="Tierheim Berlin case study" className="case-study"/>
 
             </div>
         </>

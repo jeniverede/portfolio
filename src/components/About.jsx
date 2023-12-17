@@ -15,7 +15,7 @@ export default function About() {
                 </p>
             </div>
 
-            <img src="Jen working purple.jpg" alt="image Jen working" className="about-me__img" />
+            <img src="Jen working purple.jpg" alt="image Jen working" className="about-me__img" width="200" height="377"/>
         </section>
     );
 }

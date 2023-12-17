@@ -13,7 +13,7 @@ h2 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
   font-size: 16px;
   margin-top: 20px;
 }
@@ -59,4 +59,10 @@ input[type="submit"] {
 input:hover {
   background: var(--clr-light);
   color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  .form {
+    width: 40%;
+  }
 }

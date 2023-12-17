@@ -17,7 +17,7 @@ export default function MuseumGuideBerlin() {
 
                 My vision is that once information is easier to find in one dedicated app; visitors will prioritise museums in their free time.</p>
 
-                <img src="/Museum Guide Berlin v4.jpg" alt="Museum Guide Berlin case study" />
+                <img src="/Museum Guide Berlin v4.jpg" alt="Museum Guide Berlin case study" className="case-study"/>
 
             </div>
         </>
