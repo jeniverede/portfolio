@@ -3,11 +3,6 @@
   margin: 0 auto;
 }
 
-.about-me__img {
-  display: block;
-  max-width: 100%;
-}
-
 @media only screen and (min-width: 600px) {
   .about-me {
     display: grid;
