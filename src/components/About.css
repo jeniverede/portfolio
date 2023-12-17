@@ -5,9 +5,11 @@
 
 .about-me__img {
   box-shadow: var(--bs);
+  max-width: 100%;
+  height: auto; 
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;

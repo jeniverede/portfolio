@@ -54,7 +54,7 @@
 }
 
 /* create media query for each section at the end, keeps them separate and less confusing */
-@media (min-width: 800px) {
+@media only screen and (min-width: 800px) {
   :root {
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
