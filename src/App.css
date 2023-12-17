@@ -1,40 +1,69 @@
 /* Custom properties, method for declaring re-usable values and can be updated */
 :root {
-    /* font-family */
-    --ff-primary: "Poppins", sans-serif;
-    --ff-secondary: "Roboto Mono", sans-serif;
-  
-    /* font-weight */
-    --fw-reg: 300;
-    --fw-bold: 700;
-  
-    /* colors */
-    --clr-light: #fff;
-    --clr-dark: #242424;
-    --clr-accent: #682bd7;
-  
-    /* font-size 48px, 36px, 20px,16px */
-    --fs-h1: 3rem; 
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
-  
-    /* box shadow */
-    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
-      0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+  /* font-family */
+  --ff-primary: "Poppins", sans-serif;
+  --ff-secondary: "Roboto Mono", sans-serif;
+
+  /* Font-face rules */
+  @font-face {
+    font-family: "Poppins";
+    src: url("./assets/fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
+        url("./assets/fonts/Poppins/poppins-light-webfont.woff") format("woff");
+    /* Additional font-face properties like font-weight, font-style, etc. */
   }
 
-  /* create media query for each section at the end, keeps them separate and less confusing */
+  @font-face {
+    font-family: "Poppins";
+    src: url("./assets/fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
+        url("./assets/fonts/Poppins/poppins-bold-webfont.woff") format("woff");
+    /* Additional font-face properties like font-weight, font-style, etc. */
+  }
+
+  @font-face {
+    font-family: "Roboto Mono";
+    src: url("./assets/fonts/Roboto Mono/RobotoMono-Light.woff2") format("woff2"),
+        url("./assets/fonts/Roboto Mono/RobotoMono-Light.woff") format("woff");
+    /* Additional font-face properties like font-weight, font-style, etc. */
+  }
+
+  @font-face {
+    font-family: "Roboto Mono";
+    src: url("./assets/fonts/Roboto Mono/RobotoMono-Bold.woff2") format("woff2"),
+        url("./assets/fonts/Roboto Mono/RobotoMono-Bold.woff") format("woff");
+    /* Additional font-face properties like font-weight, font-style, etc. */
+  }
+
+  /* font-weight */
+  --fw-light: 300;
+  --fw-bold: 700;
+
+  /* colors */
+  --clr-light: #fff;
+  --clr-dark: #242424;
+  --clr-accent: #682bd7;
+
+  /* font-size 48px, 36px, 20px,16px */
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+
+  /* box shadow */
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
+
+/* create media query for each section at the end, keeps them separate and less confusing */
 @media (min-width: 800px) {
-    :root {
-      --fs-h1: 4.5rem;
-      --fs-h2: 3.75rem;
-      --fs-h3: 1.5rem;
-      --fs-body: 1.125rem;
-    }
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.125rem;
   }
+}
 
-  /* General styles */
+/* General styles */
 html {
   scroll-behavior: smooth;
 }
@@ -112,7 +141,7 @@ h3 {
 }
 
 .section__title--intro {
-  font-weight: var(--fw-reg);
+  font-weight: var(--fw-light);
 }
 
 .section__title--intro strong {
