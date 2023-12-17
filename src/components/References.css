@@ -1,43 +1,44 @@
 .my-references {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
-    text-align: left;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  text-align: left;
+}
+
+.section__title--references {
+  color: var(--clr-accent);
+  position: relative;
+  text-align: center;
+}
+
+/* psuedo element/decorative bar after title, must have '' with empty content to show up */
+.section__title--references::after {
+  content: "";
+  display: block;
+  width: 6em;
+  height: 2px;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  background: var(--clr-accent);
+  /* or currentColor to match accent color */
+  opacity: 0.75;
+}
+
+.reference {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .references {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
-  .section__title--references {
-    color: var(--clr-accent);
-    position: relative;
-    text-align: center;
+
+  /* + indicator looks at sibling to the right */
+  .reference + .reference {
+    margin-left: 3em;
   }
-  
-  /* psuedo element/decorative bar after title, must have '' with empty content to show up */
-  .section__title--references::after {
-    content: "";
-    display: block;
-    width: 2em;
-    height: 2px;
-    margin: auto;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    background: var(--clr-dark);
-    opacity: 0.75;
-  }
-  
-  .reference {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    .references {
-      display: flex;
-      max-width: 1000px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    /* + indicator looks at sibling to the right */
-    .reference + .reference {
-      margin-left: 3em;
-    }
-  }
+}

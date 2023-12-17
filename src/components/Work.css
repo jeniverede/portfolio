@@ -19,9 +19,10 @@
 .section__title--work::before {
   content: "";
   display: block;
-  width: 20em;
+  width: 6em;
   height: 2px;
   margin: auto;
+  margin-top: 0.5em;
   margin-bottom: 1em;
   background: var(--clr-accent);
   /* or currentColor to match accent color */
@@ -55,10 +56,6 @@
 }
 
 .portfolio__img:hover,
-.portfolio__item:hover 
-.portfolio__img {
+.portfolio__item:hover .portfolio__img {
   opacity: 0.5;
 }
-
-
-
