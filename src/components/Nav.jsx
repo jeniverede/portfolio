@@ -4,19 +4,32 @@ import { useEffect } from "react";
 export default function Nav() {
     useEffect(() => {
         const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelectorAll('.nav__link');
 
         const handleNavToggleClick = () => {
             document.body.classList.toggle('nav-open');
+        };
+
+        const handleNavLinkClick = () => {
+            document.body.classList.remove('nav-open');
         };
 
         if (navToggle) {
             navToggle.addEventListener('click', handleNavToggleClick);
         }
 
+        navLinks.forEach((link) => {
+            link.addEventListener('click', handleNavLinkClick);
+        });
+
         return () => {
             if (navToggle) {
                 navToggle.removeEventListener('click', handleNavToggleClick);
             }
+
+            navLinks.forEach((link) => {
+                link.removeEventListener('click', handleNavLinkClick);
+            });
         };
     }, []);
 
