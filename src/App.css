@@ -4,35 +4,6 @@
   --ff-primary: "Poppins", sans-serif;
   --ff-secondary: "Roboto Mono", sans-serif;
 
-  /* Font-face rules */
-  @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
-        url("../fonts/Poppins/poppins-light-webfont.woff") format("woff");
-    /* Additional font-face properties like font-weight, font-style, etc. */
-  }
-
-  @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
-        url("../fonts/Poppins/poppins-bold-webfont.woff") format("woff");
-    /* Additional font-face properties like font-weight, font-style, etc. */
-  }
-
-  @font-face {
-    font-family: "Roboto Mono";
-    src: url("../fonts/Roboto Mono/RobotoMono-Light.woff2") format("woff2"),
-        url("../fonts/Roboto Mono/RobotoMono-Light.woff") format("woff");
-    /* Additional font-face properties like font-weight, font-style, etc. */
-  }
-
-  @font-face {
-    font-family: "Roboto Mono";
-    src: url("../fonts/Roboto Mono/RobotoMono-Bold.woff2") format("woff2"),
-        url("../fonts/Roboto Mono/RobotoMono-Bold.woff") format("woff");
-    /* Additional font-face properties like font-weight, font-style, etc. */
-  }
-
   /* font-weight */
   --fw-light: 300;
   --fw-bold: 700;
@@ -51,6 +22,35 @@
   /* box shadow */
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
+
+/* Font-face rules outside of :root */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
+    url("../fonts/Poppins/poppins-light-webfont.woff") format("woff");
+  font-weight: "light";
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
+    url("../fonts/Poppins/poppins-bold-webfont.woff") format("woff");
+  font-weight: "bold";
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("../fonts/Roboto Mono/RobotoMono-Light.woff2") format("woff2"),
+    url("../fonts/Roboto Mono/RobotoMono-Light.woff") format("woff");
+  font-weight: "light";
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("../fonts/Roboto Mono/RobotoMono-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto Mono/RobotoMono-Bold.woff") format("woff");
+  font-weight: "bold";
 }
 
 /* create media query for each section at the end, keeps them separate and less confusing */
