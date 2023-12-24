@@ -1,9 +1,9 @@
-.section__subtitle--project {
+.section__subtitle--project-tb {
   height: 43%;
   font-size: var(--fs-h3);
 }
 
-.section__subtitle--project {
+.section__subtitle--project-tb {
   background: var(--clr-accent);
   color: var(--clr-light);
   padding: 0.25em 1em;
@@ -30,7 +30,7 @@
 
 /* tablet landscape */
 @media (min-width: 600px) and (max-width: 899px) {
-  .section__title--project {
+  .section__title--project-tb {
     font-size: 2.5em;
   }
 }
