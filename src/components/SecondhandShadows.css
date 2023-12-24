@@ -1,3 +1,16 @@
+.section__subtitle--project {
+  height: 43%;
+  font-size: var(--fs-h3);
+}
+
+.section__subtitle--project {
+  background: var(--clr-accent);
+  color: var(--clr-light);
+  padding: 0.25em 1em;
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+}
+
 .portfolio-item-individual {
   padding: 0 2em 2em;
   max-width: 1000px;
@@ -14,3 +27,11 @@
 .case-study {
   width: 100%;
 }
+
+/* tablet landscape */
+@media (min-width: 600px) and (max-width: 899px) {
+  .section__title--project {
+    font-size: 2.5em;
+  }
+}
+

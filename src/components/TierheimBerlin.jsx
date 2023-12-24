@@ -5,10 +5,10 @@ export default function TierheimBerlin() {
     return (
         <>
             <section className="intro">
-                <h1 className="section__title section__title--intro">
+                <h1 className="section__title section__title--project">
                     <strong>Tierheim Berlin</strong>
                 </h1>
-                <p className="section__subtitle section__subtitle--intro">Mobile app for iOS & website redesign</p>
+                <p className="section__subtitle section__subtitle--project">Mobile app for iOS & website redesign</p>
                 <img src="/Tierheim Berlin cover img 2.jpg" alt="Tierheim Berlin mockups" className="intro__img" />
             </section>
 
