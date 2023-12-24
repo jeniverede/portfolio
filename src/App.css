@@ -41,14 +41,16 @@
 
 @font-face {
   font-family: var(--ff-secondary);
-  src: url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
+  src: local("RobotoMono-Light")
+    url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
     url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff") format("woff");
   font-weight: var(--fw-light);
 }
 
 @font-face {
   font-family: var(--ff-secondary);
-  src: url("./assets/fonts/Roboto-Mono/Roboto-Mono-Bold.woff2") format("woff2"),
+  src: local("RobotoMono-SemiBold"),
+    url("./assets/fonts/Roboto-Mono/Roboto-Mono-Bold.woff2") format("woff2"),
     url("./assets/fonts/Roboto-Mono/Roboto-Mono-Bold.woff") format("woff");
   font-weight: var(--fw-bold);
 }
