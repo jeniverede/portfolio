@@ -38,6 +38,7 @@
   outline-offset: 3px;
 }
 
+/* mobile */
 @media (min-width: 599px) {
   .intro {
     display: grid;
@@ -68,11 +69,11 @@
   }
 }
 
+/* tablet portrait */
 /* Layout only, text styling in App.css - Typography */
 @media (min-width: 600px) and (max-width: 899px) {
   .section__subtitle--intro {
     left: -0.75em;
     width: calc(93% + 4em);
-    
   }
 }

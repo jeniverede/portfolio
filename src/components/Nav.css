@@ -114,9 +114,3 @@ header {
   }
 }
 
-/* tablet portait */
-@media (min-width: 600px) and (max-width: 899px)  {
-  .nav-open .nav {
-    transform: translateX(70%);
-  }
-}

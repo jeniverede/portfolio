@@ -3,7 +3,8 @@
   margin: 0 auto;
 }
 
-@media (min-width: 600px)  {
+/* mobile */
+@media (min-width: 599px)  {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
