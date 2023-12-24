@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px)  {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;

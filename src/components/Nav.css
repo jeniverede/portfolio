@@ -55,9 +55,9 @@ header {
   z-index: 1000;
 }
 
-/* defines width of flyout menu, 55% is the amount the menu does not cover */
+/* defines width of flyout menu, 75% is the amount the menu does not cover */
 .nav-open .nav {
-  transform: translateX(55%);
+  transform: translateX(75%);
 }
 
 .nav-open .nav-toggle {
@@ -102,12 +102,21 @@ header {
 .hamburger::before {
   top: 6px;
 }
+
 .hamburger::after {
   bottom: 6px;
 }
 
-@media only screen and (min-width: 600px) {
+/* mobile */
+@media (max-width: 599px) {
   .nav-open .nav {
-    transform: translateX(75%);
+    transform: translateX(45%);
+  }
+}
+
+/* tablet portait */
+@media (min-width: 600px) and (max-width: 899px)  {
+  .nav-open .nav {
+    transform: translateX(70%);
   }
 }

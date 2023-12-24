@@ -29,7 +29,7 @@
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .references {
     display: flex;
     max-width: 1000px;

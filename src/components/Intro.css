@@ -38,7 +38,7 @@
   outline-offset: 3px;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 599px) {
   .intro {
     display: grid;
     width: min-content;
@@ -65,5 +65,14 @@
     position: relative;
     left: -1.5em;
     width: calc(100% + 4em);
+  }
+}
+
+/* Layout only, text styling in App.css - Typography */
+@media (min-width: 600px) and (max-width: 899px) {
+  .section__subtitle--intro {
+    left: -0.75em;
+    width: calc(93% + 4em);
+    
   }
 }

@@ -13,7 +13,7 @@
   --clr-dark: #242424;
   --clr-accent: #682bd7;
 
-  /* font-size 48px, 36px, 20px,16px */
+  /* font-size 48px, 36px, 20px, 16px */
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
@@ -42,7 +42,7 @@
 @font-face {
   font-family: var(--ff-secondary);
   src: local("RobotoMono-Light")
-    url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
+      url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
     url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff") format("woff");
   font-weight: var(--fw-light);
 }
@@ -56,7 +56,7 @@
 }
 
 /* create media query for each section at the end, keeps them separate and less confusing */
-@media only screen and (min-width: 600px) {
+@media (min-width: 599px) {
   :root {
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
@@ -158,4 +158,15 @@ h3 {
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
+}
+
+/* tablet portrait Intro.jsx/css */
+@media (min-width: 600px) and (max-width: 899px) {
+  .section__title--intro {
+    font-size: 3em;
+  }
+
+  .section__subtitle--intro {
+    font-size: 1.1em;
+  }
 }
