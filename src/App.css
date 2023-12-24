@@ -27,36 +27,38 @@
 /* Font-face rules outside of :root */
 @font-face {
   font-family: var(--ff-primary);
-  src: url("./assets/fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
-    url("./assets/fonts/Poppins/poppins-light-webfont.woff") format("woff");
+  src: local("poppins-light")
+    url("../public/fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
+    url("../public/fonts/Poppins/poppins-light-webfont.woff") format("woff");
   font-weight: var(--fw-light);
 }
 
 @font-face {
   font-family: var(--ff-primary);
-  src: url("./assets/fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
-    url("./assets/fonts/Poppins/poppins-bold-webfont.woff") format("woff");
+  src: local("poppins-light")
+    url("../public/fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
+    url("../public/fonts/Poppins/poppins-bold-webfont.woff") format("woff");
   font-weight: var(--fw-bold);
 }
 
 @font-face {
   font-family: var(--ff-secondary);
   src: local("RobotoMono-Light")
-      url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
-    url("./assets/fonts/Roboto-Mono/Roboto-Mono-Light.woff") format("woff");
+    url("../public/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
+    url("../public/fonts/Roboto-Mono/Roboto-Mono-Light.woff") format("woff");
   font-weight: var(--fw-light);
 }
 
 @font-face {
   font-family: var(--ff-secondary);
-  src: local("RobotoMono-SemiBold"),
-    url("./assets/fonts/Roboto-Mono/Roboto-Mono-Bold.woff2") format("woff2"),
-    url("./assets/fonts/Roboto-Mono/Roboto-Mono-Bold.woff") format("woff");
+  src: local("RobotoMono-Bold"),
+    url("../public/fonts/Roboto-Mono/Roboto-Mono-Bold.woff2") format("woff2"),
+    url("../public/fonts/Roboto-Mono/Roboto-Mono-Bold.woff") format("woff");
   font-weight: var(--fw-bold);
 }
 
 /* create media query for each section at the end, keeps them separate and less confusing */
-/* mobile */
+/* mob */
 @media (min-width: 599px) {
   :root {
     --fs-h1: 4.5rem;
