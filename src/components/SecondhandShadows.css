@@ -7,7 +7,7 @@
   background: var(--clr-accent);
   color: var(--clr-light);
   padding: 0.25em 1em;
-  font-family: var(--ff-secondary);
+  font-family: RobotoMono;
   margin-bottom: 1em;
 }
 

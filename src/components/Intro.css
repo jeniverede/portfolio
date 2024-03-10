@@ -18,9 +18,9 @@
   color: var(--clr-dark);
   text-decoration: none;
   text-transform: lowercase;
-  font-family: var(--ff-secondary);
+  font-family: RobotoMono;
   font-size: 1.125rem;
-  font-weight: var(--fw-bold);
+  font-weight: 700;
   letter-spacing: 2px;
 }
 

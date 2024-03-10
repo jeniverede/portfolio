@@ -35,7 +35,7 @@ header {
 
 .nav__link {
   color: inherit;
-  font-weight: var(--fw-bold);
+  font-weight: 700;
   font-size: var(--fs-h3);
   text-decoration: none;
 }

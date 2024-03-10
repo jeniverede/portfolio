@@ -1,12 +1,12 @@
 /* Custom properties, method for declaring re-usable values and can be updated */
 :root {
   /* font-family */
-  --ff-primary: "Poppins", sans-serif;
-  --ff-secondary: "Roboto Mono", sans-serif;
+/*   --ff-primary: "Poppins", sans-serif;
+    --ff-secondary: "Roboto Mono", sans-serif; */
 
   /* font-weight */
-  --fw-light: 300;
-  --fw-bold: 700;
+  /* --fw-light: 300;
+  --fw-bold: 700; */
 
   /* colors */
   --clr-light: #fff;
@@ -26,35 +26,35 @@
 
 /* Font-face rules outside of :root */
 @font-face {
-  font-family: var(--ff-primary);
-  src: local("poppins-light")
+  font-family: Poppins;
+  src: local("poppins-light"),
     url("../public/fonts/Poppins/poppins-light-webfont.woff2") format("woff2"),
     url("../public/fonts/Poppins/poppins-light-webfont.woff") format("woff");
-  font-weight: var(--fw-light);
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: var(--ff-primary);
-  src: local("poppins-light")
+  font-family: Poppins;
+  src: local("poppins-light"),
     url("../public/fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"),
     url("../public/fonts/Poppins/poppins-bold-webfont.woff") format("woff");
-  font-weight: var(--fw-bold);
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: var(--ff-secondary);
-  src: local("RobotoMono-Light")
+  font-family: RobotoMono;
+  src: local("RobotoMono-Light"),
     url("../public/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
     url("../public/fonts/Roboto-Mono/Roboto-Mono-Light.woff") format("woff");
-  font-weight: var(--fw-light);
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: var(--ff-secondary);
+  font-family: RobotoMono;
   src: local("RobotoMono-Bold"),
     url("../public/fonts/Roboto-Mono/Roboto-Mono-Bold.woff2") format("woff2"),
     url("../public/fonts/Roboto-Mono/Roboto-Mono-Bold.woff") format("woff");
-  font-weight: var(--fw-bold);
+  font-weight: 700;
 }
 
 /* create media query for each section at the end, keeps them separate and less confusing */
@@ -77,7 +77,7 @@ body {
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
-  font-family: var(--ff-primary);
+  font-family: Poppins;
   font-size: var(--fs-body);
   line-height: 1.6;
 }
@@ -87,7 +87,7 @@ section {
 }
 
 strong {
-  font-weight: var(--fw-bold);
+  font-weight: 700;
 }
 
 /* creates outline around item on hover */
@@ -104,7 +104,7 @@ strong {
   color: var(--clr-light);
   text-decoration: none;
   cursor: pointer;
-  font-family: var(--ff-secondary);
+  font-family: RobotoMono;
   font-size: 1.25rem;
   text-transform: lowercase;
   letter-spacing: 2px;
@@ -142,7 +142,7 @@ h3 {
 
 .section__title--intro {
   display: inline-block;
-  font-weight: var(--fw-light);
+  font-weight: 300;
 }
 
 .section__title--intro strong {
@@ -159,7 +159,7 @@ h3 {
   background: var(--clr-accent);
   color: var(--clr-light);
   padding: 0.25em 1em;
-  font-family: var(--ff-secondary);
+  font-family: RobotoMono;
   margin-bottom: 1em;
 }
 
