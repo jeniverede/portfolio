@@ -15,6 +15,10 @@
   font-weight: 700;
 }
 
+.container_img {
+  margin: auto;
+}
+
 /* psuedo element/decorative bar after title, must have '' with empty content to show up */
 .bold-text::after {
   content: "";

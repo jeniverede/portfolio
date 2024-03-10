@@ -20,7 +20,9 @@ export default function CostumeBlog() {
                     <a href="https://costumecollectionsblog.netlify.app" target="blank" className="btn">Visit the blog</a>
                 </div>
 
-                <img src="/CCB full screen.png" alt="Collection Digtial mockups" />
+                <div className="container_img">
+                    <img src="/CCB full screen.png" alt="Costume Collections Blog image" />
+                </div>
 
                 <div className="container_button">
                     <a href="https://github.com/jeniverede?tab=stars" target="blank" className="btn">Github repository</a>

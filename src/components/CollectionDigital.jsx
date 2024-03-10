@@ -22,7 +22,9 @@ export default function CollectionDigital() {
                         className="btn">Visit Collection Digital</a>
                 </div>
 
-                <img src="/CD Mockups.jpg" alt="Collection Digtial mockups" />
+                <div className="container_img">
+                    <img src="/CD Mockups.jpg" alt="Collection Digtial mockups" />
+                </div>
 
                 <div className="container_button">
                     <a href="https://github.com/jeniverede?tab=stars" target="blank" className="btn">Github repository</a>
@@ -30,7 +32,7 @@ export default function CollectionDigital() {
 
                 <p>Collaborators: Sona Chaboud, Jennifer Rothrock, Kevin Kalus & Reagan Sassan</p>
 
-            </div>
+            </div >
         </>
     );
 }
