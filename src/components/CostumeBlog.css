@@ -34,14 +34,14 @@
 }
 
 /* mobile */
-@media (min-width: 399px) {
+@media (min-width: 499px) {
   .container_img {
     margin: auto;
   }
 }
 
 /* tablet landscape */
-@media (min-width: 400px) and (max-width: 899px) {
+@media (min-width: 500px) and (max-width: 899px) {
   .section__title--intro {
     font-size: 2em;
   }
