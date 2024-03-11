@@ -42,7 +42,7 @@
 
 /* tablet landscape */
 @media (min-width: 500px) and (max-width: 899px) {
-  .section__subtitle--intro {
+  .section__title--intro {
     font-size: 2em;
   }
 }
