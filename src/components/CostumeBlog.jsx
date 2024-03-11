@@ -13,11 +13,13 @@ export default function CostumeBlog() {
             </section>
 
             <div className="portfolio-item-individual">
-                <p>Design/Concept: A blog documenting the costume collections I visit on my travels.</p>
+                <p>A blog documenting the costume collections I visit on my travels.</p>
                 <p className="bold-text">HTML, CSS</p>
 
                 <div className="container_button">
-                    <a href="https://costumecollectionsblog.netlify.app" target="blank" className="btn">Visit the blog</a>
+                    <a href="https://costumecollectionsblog.netlify.app"
+                        target="blank"
+                        className="btn">Visit the blog</a>
                 </div>
 
                 <div className="container_img">
@@ -28,7 +30,7 @@ export default function CostumeBlog() {
                     <a href="https://github.com/jeniverede?tab=stars" target="blank" className="btn">Github repository</a>
                 </div>
 
-            </div>
+            </div >
         </>
     );
 }
