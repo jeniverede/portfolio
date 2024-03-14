@@ -16,7 +16,7 @@
 }
 
 .img_container {
-  width: 80%; /* Take up full width */
+  width: 100%; /* Take up full width */
   max-width: 100vw; /* Maximum width equal to viewport width */
   height: auto;
   margin: 0 auto;
@@ -43,12 +43,13 @@
   opacity: 0.75;
 }
 
+.visit_cdbtn  {
+  padding: 10px;
+}
+
 /* tablet landscape */
 @media (min-width: 600px) and (max-width: 899px) {
   .section__subtitle--intro {
     font-size: 2.5em;
-  }
-  .container_img {
-    margin: auto;
   }
 }
