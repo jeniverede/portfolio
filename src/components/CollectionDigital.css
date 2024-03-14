@@ -16,6 +16,8 @@
 }
 
 .container_img {
+  width: 75%;
+  height: auto;
   background-color: blue;
   margin: auto;
 }
