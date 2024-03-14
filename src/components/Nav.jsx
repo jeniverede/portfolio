@@ -35,9 +35,7 @@ export default function Nav() {
 
     return (
         <header>
-            <div className="logo">
-                <img src="/{ jennifer }.svg" alt="logo" />
-            </div>
+            <img src="/{ jennifer }.svg" alt="logo" />
 
             <a href="https://drive.google.com/file/d/1JfZfcirSNFJAl0JA0p53ukkdPLu-2_lV/view?usp=sharing" target="blank" className="resume">resume</a>
 
