@@ -8,6 +8,13 @@ header {
   max-width: 100px;
 }
 
+.resume {
+  font-weight: 700;
+  font-size: var(--fs-h2);
+  color: var(--clr-accent);
+  text-decoration: none;
+}
+
 .nav {
   position: fixed;
   background: var(--clr-dark);

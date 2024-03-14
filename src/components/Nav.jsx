@@ -39,7 +39,7 @@ export default function Nav() {
                 <img src="/{ jennifer }.svg" alt="logo" />
             </div>
 
-            <a href="https://drive.google.com/file/d/1JfZfcirSNFJAl0JA0p53ukkdPLu-2_lV/view?usp=sharing" target="blank">resume</a>
+            <a href="https://drive.google.com/file/d/1JfZfcirSNFJAl0JA0p53ukkdPLu-2_lV/view?usp=sharing" target="blank" className="resume">resume</a>
 
             <button className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
