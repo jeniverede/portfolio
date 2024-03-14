@@ -10,7 +10,7 @@ header {
 
 .resume {
   font-weight: 700;
-  font-size: var(--fs-h4);
+  font-size: var(--fs-h3);
   color: var(--clr-accent);
   text-decoration: none;
 }
