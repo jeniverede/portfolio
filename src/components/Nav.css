@@ -10,6 +10,7 @@ header {
 }
 
 .resume {
+  font-family: RobotoMono;
   font-weight: 700;
   font-size: var(--fs-h3);
   color: var(--clr-accent);
