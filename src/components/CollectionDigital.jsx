@@ -19,7 +19,7 @@ export default function CollectionDigital() {
                 <div className="container_button">
                     <a href="https://collection-digital.netlify.app"
                         target="blank"
-                        className="visit_cdbtn">Visit Collection Digital</a>
+                        className="btn">Visit Collection Digital</a>
                 </div>
 
                 <div className="img-container">

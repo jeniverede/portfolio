@@ -19,7 +19,7 @@
   width: 100%; /* Take up full width */
   max-width: 100vw; /* Maximum width equal to viewport width */
   height: auto;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .img_mockup {
@@ -41,10 +41,6 @@
   background: var(--clr-accent);
   /* or currentColor to match accent color */
   opacity: 0.75;
-}
-
-.visit_cdbtn  {
-  padding: 10px;
 }
 
 /* tablet landscape */
