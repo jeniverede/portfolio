@@ -23,7 +23,7 @@ export default function CollectionDigital() {
                 </div>
 
                 <div className="container_img">
-                    <img src="/CD Mockups.jpg" alt="Collection Digtial mockups" />
+                    <img src="/CD Mockups.jpg" className="mockup-img" alt="Collection Digtial mockups" />
                 </div>
 
                 <div className="container_button">
