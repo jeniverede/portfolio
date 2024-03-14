@@ -36,7 +36,7 @@
 }
 
 /* mobile */
-@media (min-width: 599px){
+@media (max-width: 599px){
   .services {
     display: flex;
     max-width: 1000px;

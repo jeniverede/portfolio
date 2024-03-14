@@ -39,7 +39,7 @@
 }
 
 /* mobile */
-@media (min-width: 599px) {
+@media (max-width: 599px) {
   .intro {
     display: grid;
     width: min-content;

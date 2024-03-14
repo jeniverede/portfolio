@@ -4,7 +4,7 @@
 }
 
 /* mobile */
-@media (min-width: 599px)  {
+@media (max-width: 599px)  {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;

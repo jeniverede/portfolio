@@ -51,7 +51,7 @@ h3 {
 }
 
 /* mobile */
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   h3 {
     font-size: var(--fs-body);
   }

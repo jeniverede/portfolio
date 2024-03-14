@@ -62,7 +62,7 @@ input:hover {
 }
 
 /* mobile */
-@media (min-width: 599px){
+@media (max-width: 599px){
   .form {
     width: 40%;
   }
