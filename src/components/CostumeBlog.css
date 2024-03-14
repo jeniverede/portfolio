@@ -15,8 +15,18 @@
   font-weight: 700;
 }
 
-.container_img {
-  margin: auto;
+.img_container {
+  width: 100%; /* Take up full width */
+  max-width: 100vw; /* Maximum width equal to viewport width */
+  height: auto;
+  margin: 50px auto;
+}
+
+.img_mockup {
+  max-width: 100%; /* Maximum width equal to container width */
+  height: auto; /* Automatically adjust height */
+  display: block; /* Ensure it doesn't have extra space below */
+  margin: 0 auto;
 }
 
 /* psuedo element/decorative bar after title, must have '' with empty content to show up */

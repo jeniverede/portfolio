@@ -22,8 +22,8 @@ export default function CostumeBlog() {
                         className="btn">Visit the blog</a>
                 </div>
 
-                <div className="container_img">
-                    <img src="/CCB full screen.png" alt="Costume Collections Blog image" />
+                <div className="img_container">
+                    <img src="/CCB full screen.png" className="img_mockup" alt="Costume Collections Blog image" />
                 </div>
 
                 <div className="container_button">
