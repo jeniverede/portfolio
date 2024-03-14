@@ -7,6 +7,7 @@
 }
 
 h3 {
+  font-size: var(--fs-body);
   font-weight: 700;
 }
 
@@ -50,3 +51,9 @@ h3 {
   font-weight: 700;
 }
 
+/* tablet */
+@media (min-width: 600px) and (max-width: 899px) {
+  h3 {
+    font-weight: 700;
+  }
+}
