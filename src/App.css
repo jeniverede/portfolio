@@ -58,7 +58,7 @@
 }
 
 /* create media query for each section at the end, keeps them separate and less confusing */
-/* mob */
+/* mobile */
 @media (min-width: 599px) {
   :root {
     --fs-h1: 4.5rem;

@@ -46,3 +46,9 @@
   font-weight: 700;
 }
 
+/* mobile */
+@media (min-width: 599px) {
+  h3 {
+    font-size: var(--fs-body);
+  }
+}
