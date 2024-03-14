@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-/* mobile */
+/* tablet */
 @media (min-width: 600px)  {
   .about-me {
     display: grid;

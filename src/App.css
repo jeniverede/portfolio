@@ -58,7 +58,8 @@
 }
 
 /* create media query for each section at the end, keeps them separate and less confusing */
-/* mobile */
+/* desktop */
+/* font-size 72px, 60px, 24px, 18px */
 @media (min-width: 800px) {
   :root {
     --fs-h1: 4.5rem;

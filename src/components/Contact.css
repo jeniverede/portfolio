@@ -61,8 +61,8 @@ input:hover {
   color: black;
 }
 
-/* mobile */
-@media (min-width: 599px){
+/* tablet */
+@media (min-width: 600px){
   .form {
     width: 40%;
   }

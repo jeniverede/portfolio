@@ -33,12 +33,12 @@
   opacity: 0.75;
 }
 
-/* mobile */
-@media (min-width: 599px) {
+/* tablet */
+/* @media (min-width: 599px) {
   .container_img {
     margin: auto;
   }
-}
+} */
 
 /* tablet landscape */
 @media (min-width: 600px) and (max-width: 899px) {
@@ -47,5 +47,9 @@
   }
   .section__subtitle--intro {
     font-size: 1em;
+  }
+
+  .container_img {
+    margin: auto;
   }
 }

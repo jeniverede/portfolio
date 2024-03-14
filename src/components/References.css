@@ -29,8 +29,8 @@
   margin: 0 auto;
 }
 
-/* mobile */
-@media (min-width: 599px) {
+/* tablet */
+@media (min-width: 600px) {
   .references {
     display: flex;
     max-width: 1000px;

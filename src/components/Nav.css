@@ -115,8 +115,8 @@ header {
   bottom: 6px;
 }
 
-/* mobile */
-@media (min-width: 599px) {
+/* tablet */
+@media (min-width: 600px) {
   .nav-open .nav {
     transform: translateX(45%);
   }
