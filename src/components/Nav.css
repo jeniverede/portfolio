@@ -65,7 +65,7 @@ header {
 
 /* defines width of flyout menu, 75% is the amount the menu does not cover */
 .nav-open .nav {
-  transform: translateX(75%);
+  transform: translateX(25%);
 }
 
 .nav-open .nav-toggle {
@@ -118,7 +118,7 @@ header {
 /* tablet */
 @media (min-width: 600px) {
   .nav-open .nav {
-    transform: translateX(45%);
+    transform: translateX(25%);
   }
 }
 
