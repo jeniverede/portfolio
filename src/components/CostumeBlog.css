@@ -50,12 +50,12 @@
   }
   .section__subtitle--intro {
     font-size: 1em;
-    margin: 10px;
+    margin: 20px;
   }
 }
 
 @media (min-width: 800px) {
   .section__subtitle--intro {
-    margin: 10px;
+    margin: 20px;
   }
 }
