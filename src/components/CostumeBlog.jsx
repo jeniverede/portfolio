@@ -6,7 +6,11 @@ export default function CostumeBlog() {
         <>
             <section className="intro">
                 <h1 className="section__title section__title--intro">
-                    <strong>Costume Collections Blog</strong>
+                    <strong>
+                        Costume Collections 
+                        <br />
+                        Blog
+                    </strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">Personal blog for costume collections</p>
                 <img src="/CCB 401.png" alt="Costume Collections Blog" className="intro__img" />
