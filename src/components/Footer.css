@@ -50,9 +50,3 @@ h3 {
   font-weight: 700;
 }
 
-/* mobile */
-@media (min-width: 414px) {
-  h3 {
-    font-size: var(--fs-body);
-  }
-}
