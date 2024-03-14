@@ -47,7 +47,7 @@
 }
 
 /* mobile */
-@media (min-width: 599px) {
+@media (max-width: 600px) {
   h3 {
     font-size: var(--fs-body);
   }
