@@ -22,7 +22,7 @@ export default function CollectionDigital() {
                         className="btn">Visit Collection Digital</a>
                 </div>
 
-                <div className="img-container">
+                <div className="img_container">
                     <img src="/CD Mockups.jpg" className="img_mockup" alt="Collection Digtial mockups" />
                 </div>
 
