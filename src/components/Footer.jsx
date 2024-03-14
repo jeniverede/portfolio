@@ -4,7 +4,7 @@ export default function Footer() {
 
     return (
         <footer className="footer">
-            <h3>jennifer.r.rothrock(at)gmail(dot)com</h3>
+            <h3 id="email-address">jennifer.r.rothrock(at)gmail(dot)com</h3>
             <ul className="social-list">
                 <li className="social-list__item">
                     <a className="social-list__link" href="http://www.linkedin.com/in/jennifer-rothrock/" target="blank">
