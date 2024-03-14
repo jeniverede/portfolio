@@ -34,7 +34,7 @@
 }
 
 /* mobile */
-@media (max-width: 599px) {
+@media (min-width: 599px) {
   .container_img {
     margin: auto;
   }

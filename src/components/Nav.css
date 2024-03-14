@@ -116,7 +116,7 @@ header {
 }
 
 /* mobile */
-@media (max-width: 599px) {
+@media (min-width: 599px) {
   .nav-open .nav {
     transform: translateX(45%);
   }

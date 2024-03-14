@@ -30,7 +30,7 @@
 }
 
 /* mobile */
-@media (max-width: 599px) {
+@media (min-width: 599px) {
   .references {
     display: flex;
     max-width: 1000px;
