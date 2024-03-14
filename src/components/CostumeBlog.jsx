@@ -7,7 +7,9 @@ export default function CostumeBlog() {
             <section className="intro">
                 <h1 className="section__title section__title--intro">
                     <strong>
-                        Costume Collections 
+                        Costume
+                        <br />
+                        Collections 
                         <br />
                         Blog
                     </strong>
