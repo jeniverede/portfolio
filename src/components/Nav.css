@@ -2,11 +2,11 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1em;
+  align-items: center;
 }
 
 .logo {
   max-width: 100px;
-  align-items: center;
 }
 
 .resume {
