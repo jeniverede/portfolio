@@ -43,7 +43,7 @@
 }
 
 /* tablet landscape */
-@media (min-width: 768px) and (max-width: 1023) and (orientation: landscape) {
+@media (min-width: 481px) and (max-width: 1023) and (orientation: landscape) {
   .section__subtitle--intro {
     width: calc(100% + 2em);
   }
