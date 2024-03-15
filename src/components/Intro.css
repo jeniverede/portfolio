@@ -42,7 +42,7 @@
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   .section__subtitle--intro {
     left: -0.75em;
-    width: calc(83% + 4em);
+    /* width: calc(83% + 4em); */
   }
 }
 
