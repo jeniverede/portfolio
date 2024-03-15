@@ -7,49 +7,31 @@
   box-shadow: var(--bs);
 }
 
-/* desktop landscape */
-@media (min-width: 1024px) and (orientation: landscape) {
-  .intro {
-    display: grid;
-    width: min-content;
-    margin: 0 auto;
-    grid-column-gap: 1em;
-    grid-template-areas:
-      "img title"
-      "img subtitle";
-    grid-template-columns: min-content max-content;
-  }
-
-  .intro__img {
-    grid-area: img;
-    min-width: 250px;
-    position: relative;
-    z-index: 2;
-  }
-  /* Layout only, text styling in App.css - Typography */
-  .section__subtitle--intro {
-    align-self: start;
-    grid-column: -1 / 1;
-    grid-row: 2;
-    text-align: right;
-    position: relative;
-    left: -1.5em;
-    width: calc(100% + 4em);
-  }
+/* .intro {
+  display: grid;
+  width: min-content;
+  margin: 0 auto;
+  grid-column-gap: 1em;
+  grid-template-areas:
+    "img title"
+    "img subtitle";
+  grid-template-columns: min-content max-content;
 }
 
-/* tablet landscape */
-@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-  .section__subtitle--intro {
-    left: -0.75em;
-    /* width: calc(83% + 4em); */
-  }
+.intro__img {
+  grid-area: img;
+  min-width: 250px;
+  position: relative;
+  z-index: 2;
 }
+/* Layout only, text styling in App.css - Typography */
+/* .section__subtitle--intro {
+  align-self: start;
+  grid-column: -1 / 1;
+  grid-row: 2;
+  text-align: right;
+  position: relative;
+  left: -1.5em;
+  width: calc(100% + 4em); 
+ } */
 
-/* tablet portrait */
-@media (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
-  .section__subtitle--intro {
-    left: -0.75em;
-    width: calc(63% + 4em);
-  }
-}
