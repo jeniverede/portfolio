@@ -51,8 +51,16 @@
   font-weight: 700;
 }
 
-/* tablet */
-@media (min-width: 600px) and (max-width: 899px) {
+/* tablet landscape */
+/* original @media (min-width: 600px) and (max-width: 899px) */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  h3 {
+    font-weight: 700;
+  }
+}
+
+/* tablet portrait */
+@media (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
   h3 {
     font-weight: 700;
   }

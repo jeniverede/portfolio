@@ -1,18 +1,21 @@
+/* All css is for mobile view, media queries for tablet and desktop */
+
 /* Custom properties, method for declaring re-usable values and can be updated */
 :root {
   /* font-family */
-/*   --ff-primary: "Poppins", sans-serif;
-    --ff-secondary: "Roboto Mono", sans-serif; */
+  /* primary: "Poppins", sans-serif;
+     secondary: "Roboto Mono", sans-serif; */
 
   /* font-weight */
-  /* --fw-light: 300;
-  --fw-bold: 700; */
+  /* light: 300;
+      bold: 700; */
 
   /* colors */
   --clr-light: #fff;
   --clr-dark: #242424;
   --clr-accent: #682bd7;
 
+  /* smaller text for mobile */
   /* font-size 48px, 36px, 20px, 16px */
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -58,9 +61,10 @@
 }
 
 /* create media query for each section at the end, keeps them separate and less confusing */
-/* desktop */
-/* font-size 72px, 60px, 24px, 18px */
-@media (min-width: 800px) {
+
+/* larger font-size for desktop 72px, 60px, 24px, 18px */
+/* original @media (min-width: 800px) */
+@media (min-width: 1024px) and (orientation: landscape) {
   :root {
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
@@ -166,7 +170,19 @@ h3 {
 }
 
 /* tablet portrait Intro.jsx/css */
-@media (min-width: 600px) and (max-width: 899px) {
+/* original @media (min-width: 600px) and (max-width: 899px) */
+@media (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+  .section__title--intro {
+    font-size: 3em;
+  }
+
+  .section__subtitle--intro {
+    font-size: 1.1em;
+  }
+}
+
+/* tablet landscape Intro.jsx/css */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   .section__title--intro {
     font-size: 3em;
   }

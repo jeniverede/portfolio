@@ -29,7 +29,8 @@
 }
 
 /* tablet landscape */
-@media (min-width: 600px) and (max-width: 899px) {
+/* original @media (min-width: 600px) and (max-width: 899px) */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   .section__title--project-mgb {
     font-size: 2.5em;
   }

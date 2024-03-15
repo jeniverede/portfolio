@@ -44,7 +44,8 @@
 }
 
 /* tablet landscape */
-@media (min-width: 600px) and (max-width: 899px) and (orientation: landscape) {
+/*  original @media (min-width: 600px) and (max-width: 899px) */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   .section__title--intro {
     font-size: 1.5em;
   }
@@ -55,8 +56,16 @@
 }
 
 /* tablet portrait */
-@media (min-width: 600px) and (max-width: 899px) and (orientation: portrait) {
+@media (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
   .section__subtitle--intro {
     margin: 50px;
+  }
+}
+
+/* desktop */
+/* original @media (min-width: 800px) */
+@media (min-width: 1024px) {
+  .section__subtitle--intro {
+    margin: 20px;
   }
 }

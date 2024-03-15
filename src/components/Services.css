@@ -36,7 +36,8 @@
 }
 
 /* desktop */
-@media (min-width: 800px){
+/* original 800px */
+@media (min-width: 1024px) and (orientation: landscape) {
   .services {
     display: flex;
     max-width: 1000px;
