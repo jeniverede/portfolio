@@ -3,12 +3,15 @@
 }
 
 .intro__img {
-  width: 250px;
   box-shadow: var(--bs);
 }
 
+.section__subtitle--intro {
+  display: inline-block;
+}
+
 /* desktop landscape */
-@media (min-width: 1024) and (orientation: landscape) {
+@media (min-width: 1024px) and (orientation: landscape) {
   .intro {
     display: grid;
     width: min-content;
@@ -26,7 +29,7 @@
     position: relative;
     z-index: 2;
   }
-  /* Layout only, text styling in App.css - Typography */
+  /* Layout only, text styling in Typography */
   .section__subtitle--intro {
     align-self: start;
     grid-column: -1 / 1;
