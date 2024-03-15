@@ -38,8 +38,16 @@
   }
 }
 
-/* tablet portrait & landscape */
-@media (min-width: 480px) and (max-width: 1023px) and (orientation: portrait) {
+/* tablet landscape */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  .section__subtitle--intro {
+    left: -0.75em;
+    width: calc(83% + 4em);
+  }
+}
+
+/* tablet portrait */
+@media (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
   .section__subtitle--intro {
     left: -0.75em;
     width: calc(63% + 4em);
