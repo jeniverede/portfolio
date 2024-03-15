@@ -48,3 +48,10 @@
     width: calc(100% + 2em);
   }
 }
+
+/* tablet portrait */
+@media (min-width: 320px) and (max-width: 480) and (orientation: landscape) {
+  .section__subtitle--intro {
+    width: calc(100%);
+  }
+}
