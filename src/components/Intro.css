@@ -8,7 +8,6 @@
 }
 
 /* desktop landscape */
-/* original @media (min-width: 600px) */
 @media (min-width: 1024px) and (orientation: landscape) {
   .intro {
     display: grid;
@@ -39,19 +38,8 @@
   }
 }
 
-/* tablet landscape */
-/* Layout only, text styling in App.css - Typography */
-/* original @media (min-width: 600px) and (max-width: 899px) */
-/* @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-  .section__subtitle--intro {
-    text-align: left;
-    left: -0.75em;
-    width: calc(63% + 4em);
-  }
-} */
-
-/* tablet portrait */
-@media (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+/* tablet portrait & landscape */
+@media (min-width: 480px) and (max-width: 1023px) and (orientation: portrait) {
   .section__subtitle--intro {
     left: -0.75em;
     width: calc(63% + 4em);
