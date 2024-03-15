@@ -8,7 +8,7 @@
 }
 
 /* desktop landscape */
-@media (min-width: 1200) and (orientation: landscape) {
+@media (min-width: 1024) and (orientation: landscape) {
   .intro {
     display: grid;
     width: min-content;
