@@ -38,20 +38,6 @@
     text-align: right;
     position: relative;
     left: -1.5em;
-    width: calc(100% + 4em);
-  }
-}
-
-/* tablet landscape */
-@media (min-width: 481px) and (max-width: 1023) and (orientation: landscape) {
-  .section__subtitle--intro {
     width: calc(100% + 2em);
-  }
-}
-
-/* tablet portrait */
-@media (min-width: 320px) and (max-width: 480) and (orientation: landscape) {
-  .section__subtitle--intro {
-    width: calc(100%);
   }
 }
