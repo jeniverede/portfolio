@@ -64,6 +64,7 @@
 /* original @media (min-width: 800px) */
 @media (min-width: 1024px) {
   .section__subtitle--intro {
+    left: -2.5em;
     margin: 20px;
   }
 }
