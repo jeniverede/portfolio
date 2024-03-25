@@ -75,3 +75,10 @@ input:hover {
     width: 40%;
   }
 }
+
+/* desktop */
+@media (min-width: 1024px) and (orientation: landscape) {
+  .form {
+    width: 50%;
+  }
+}

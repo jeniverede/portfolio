@@ -31,7 +31,7 @@
 }
 
 /* tablet landscape */
-@media (min-width: 767px) and (max-width: 1023px ) and (orientation: landscape) {
+@media (min-width: 767px) and (max-width: 1023px) and (orientation: landscape) {
   .references {
     display: flex;
     max-width: 1000px;
@@ -42,5 +42,12 @@
   /* + indicator looks at sibling to the right */
   .reference + .reference {
     margin-left: 3em;
+  }
+}
+
+/* desktop */
+@media (min-width: 1024px) and (orientation: landscape) {
+  .reference {
+    display: flex;
   }
 }

@@ -64,7 +64,7 @@ header {
   z-index: 1000;
 }
 
-/* defines width of flyout menu, 75% is the amount the menu does not cover */
+/* defines width of flyout menu, 45% is the amount the menu does not cover */
 .nav-open .nav {
   transform: translateX(45%);
 }
@@ -119,6 +119,13 @@ header {
 /* tablet */
 /* original min width 600px */
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  .nav-open .nav {
+    transform: translateX(75%);
+  }
+}
+
+/* desktop */
+@media (min-width: 1024px) and (orientation: landscape) {
   .nav-open .nav {
     transform: translateX(75%);
   }
