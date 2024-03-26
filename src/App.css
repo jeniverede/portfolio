@@ -53,9 +53,8 @@ strong {
 .btn {
   display: flex;
   margin: auto;
-  width: 50%;
   padding: 0.5em 2.5em;
-  width: 30rem;
+  width: 20rem;
   background: var(--clr-accent);
   color: var(--clr-light);
   text-decoration: none;
