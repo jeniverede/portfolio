@@ -45,9 +45,3 @@
   }
 }
 
-/* desktop */
-@media (min-width: 1024px) and (orientation: landscape) {
-  .reference {
-    display: flex;
-  }
-}
