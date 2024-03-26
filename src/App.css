@@ -100,3 +100,10 @@ strong {
   font-family: RobotoMono;
   margin-bottom: 1em;
 }
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .btn {
+    font-size: 1.25rem;
+    width: 30rem;
+  }
+}
