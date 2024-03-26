@@ -63,4 +63,8 @@
   .section__subtitle--intro {
     width: calc(100% + 4rem);
   }
+
+  .section__subtitle--project {
+    justify-content: right;
+  }
 }

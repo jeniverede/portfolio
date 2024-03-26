@@ -106,8 +106,4 @@ strong {
     font-size: 1.25rem;
     width: 30rem;
   }
-
-  .section__subtitle--project {
-    justify-content: right;
-  }
 }
