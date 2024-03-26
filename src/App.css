@@ -61,7 +61,7 @@ strong {
   justify-content: center;
   cursor: pointer;
   font-family: RobotoMono;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-transform: lowercase;
   letter-spacing: 2px;
   /* font-weight: var(--fw-bold); */
