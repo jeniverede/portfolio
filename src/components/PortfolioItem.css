@@ -65,6 +65,6 @@
   }
 
   .section__subtitle--project {
-    justify-content: right;
+    text-align: right;
   }
 }
