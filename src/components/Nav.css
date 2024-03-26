@@ -116,8 +116,7 @@ header {
   bottom: 6px;
 }
 
-/* tablet */
-/* original min width 600px */
+/* tablet landscape */
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   .nav-open .nav {
     transform: translateX(75%);

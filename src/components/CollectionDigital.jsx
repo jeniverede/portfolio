@@ -1,4 +1,4 @@
-import "./CollectionDigital.css";
+import "./PortfolioItem.css";
 
 export default function CollectionDigital() {
 

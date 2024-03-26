@@ -1,4 +1,5 @@
 import './App.css';
+import './Typography.css';
 import { Route, Routes } from "react-router-dom";
 
 /* components imports */

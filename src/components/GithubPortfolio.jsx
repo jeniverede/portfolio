@@ -1,4 +1,4 @@
-import "./GithubPortfolio.css";
+import "./PortfolioItem.css";
 
 export default function GithubPortfolio() {
 

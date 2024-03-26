@@ -52,7 +52,6 @@
 }
 
 /* tablet landscape */
-/* original @media (min-width: 600px) and (max-width: 899px) */
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   h3 {
     font-weight: 700;

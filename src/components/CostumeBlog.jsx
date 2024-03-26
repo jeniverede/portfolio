@@ -1,4 +1,4 @@
-import "./CostumeBlog.css";
+import "./PortfolioItem.css";
 
 export default function CostumeBlog() {
 
@@ -7,10 +7,8 @@ export default function CostumeBlog() {
             <section className="intro">
                 <h1 className="section__title section__title--intro">
                     <strong>
-                        Costume
-                        <br />
-                        Collections 
-                        <br />
+                        Costume Collections 
+                        <br/>
                         Blog
                     </strong>
                 </h1>

@@ -30,7 +30,7 @@
 }
 
 /* psuedo element/decorative bar after title, must have '' with empty content to show up */
-.bold-text::after {
+/* .bold-text::after {
   content: "";
   display: block;
   width: 20em;
@@ -39,12 +39,10 @@
   margin-top: 2em;
   margin-bottom: 1em;
   background: var(--clr-accent);
-  /* or currentColor to match accent color */
   opacity: 0.75;
-}
+} */
 
 /* tablet landscape */
-/* original @media (min-width: 600px) and (max-width: 899px) */
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   .section__subtitle--intro {
     font-size: 2.5em;
@@ -60,3 +58,9 @@
   }
 }
 
+/* desktop */
+@media (min-width: 1024px) and (orientation: landscape) {
+  .section__subtitle--intro {
+    width: calc(100% + 4em);
+  }
+}

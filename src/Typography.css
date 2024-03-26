@@ -1,0 +1,91 @@
+/* smaller text for mobile */
+/* font-size 48px, 36px, 20px, 16px */
+:root {
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+}
+
+/* Font-face rules outside of :root */
+@font-face {
+    font-family: Poppins;
+    src: local("poppins-regular"),
+      url("../public/fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
+      url("../public/fonts/Poppins/Poppins-Regular.woff") format("woff");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: local("poppins-bold"),
+      url("../public/fonts/Poppins/Poppins-bold.woff2") format("woff2"),
+      url("../public/fonts/Poppins/Poppins-bold.woff") format("woff");
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: RobotoMono;
+    src: local("RobotoMono-Light"),
+      url("../public/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
+      url("../public/fonts/Roboto-Mono/Roboto-Mono-Light.woff") format("woff");
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: RobotoMono;
+    src: local("RobotoMono-Bold"),
+      url("../public/fonts/Roboto-Mono/Roboto-Mono-Bold.woff2") format("woff2"),
+      url("../public/fonts/Roboto-Mono/Roboto-Mono-Bold.woff") format("woff");
+    font-weight: 700;
+  }
+
+  /* Typography */
+h1,
+h2,
+h3 {
+  line-height: 1;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+
+  /* larger font-size for desktop 72px, 60px, 24px, 18px */
+@media (min-width: 1024px) and (orientation: landscape) {
+    :root {
+      --fs-h1: 4.5rem;
+      --fs-h2: 3.75rem;
+      --fs-h3: 1.5rem;
+      --fs-body: 1.125rem;
+    }
+  }
+
+  /* font for tablet portrait Intro.jsx/css */
+@media (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+    .section__title--intro {
+      font-size: 3em;
+    }
+  
+    .section__subtitle--intro {
+      font-size: 1.1em;
+    }
+  }
+  
+  /* font tablet landscape Intro.jsx/css */
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    .section__title--intro {
+      font-size: 3em;
+    }
+  
+    .section__subtitle--intro {
+      font-size: 1.1em;
+    }
+  }
