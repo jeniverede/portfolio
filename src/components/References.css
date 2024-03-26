@@ -25,7 +25,7 @@
 }
 
 .reference {
-  width: 33%;
+  width: 40%;
   margin: 0 auto;
   padding-bottom: .625rem;
 }
@@ -49,5 +49,6 @@
 @media (min-width: 1024px) and (orientation: landscape) {
   .references {
     display: flex;
+    width: 33%;
   }
 }
