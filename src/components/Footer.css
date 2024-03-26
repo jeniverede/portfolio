@@ -2,8 +2,8 @@
   background: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
-  padding-top: 1.5em;
-  padding-bottom: 2.5em;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
 }
 
 #email-address {
@@ -37,7 +37,7 @@
 
 .social-list__item {
   font-size: var(--fs-h2);
-  margin: 0 0.5em;
+  margin: 0 0.5rem;
 }
 
 .social-list__link {

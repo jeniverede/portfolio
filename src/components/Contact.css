@@ -14,15 +14,15 @@ h2 {
   align-items: flex-start;
   flex-direction: column;
   width: 70%;
-  font-size: 16px;
-  margin-top: 20px;
+  font-size: 1rem;
+  margin-top: 1.25rem;
 }
 
 input {
   font-family: RobotoMono;
   width: 100%;
-  height: 35px;
-  padding: 7px;
+  height: 2.188rem;
+  padding: .438rem;
   outline: none;
   border-radius: 0;
   border: 1px solid white;
@@ -32,9 +32,9 @@ textarea {
   max-width: 100%;
   min-width: 100%;
   width: 100%;
-  max-height: 100px;
-  min-height: 100px;
-  padding: 7px;
+  max-height: 6.25rem;
+  min-height: 6.25rem;
+  padding: .438rem;
   outline: none;
   border-radius: 0;
   border: 1px solid white;
@@ -53,7 +53,7 @@ input[type="submit"] {
   font-family: Poppins;
   color: var(--clr-light);
   border: none;
-  border-radius: 5px;
+  border-radius: .313rem;
 }
 
 input:hover {
