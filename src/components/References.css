@@ -49,6 +49,7 @@
 @media (min-width: 1024px) and (orientation: landscape) {
   .references {
     display: flex;
-    width: 60%;
+    margin: auto;
+    width: 35%;
   }
 }
