@@ -81,6 +81,7 @@ strong {
 .section__title--intro {
   display: inline-block;
   font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 .section__title--intro strong {
