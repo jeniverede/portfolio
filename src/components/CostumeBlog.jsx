@@ -5,14 +5,14 @@ export default function CostumeBlog() {
     return (
         <>
             <section className="intro">
-                <h1 className="section__title section__title--intro">
+                <h1>
                     <strong>
                         Costume Collections 
                         <br/>
                         Blog
                     </strong>
                 </h1>
-                <p className="section__subtitle section__subtitle--intro">Personal blog for costume collections</p>
+                <p>Personal blog for costume collections</p>
                 <img src="/CCB 401.png" alt="Costume Collections Blog" className="intro__img" />
             </section>
 

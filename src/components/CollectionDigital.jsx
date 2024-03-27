@@ -5,10 +5,10 @@ export default function CollectionDigital() {
     return (
         <>
             <section className="intro">
-                <h1 className="section__title section__title--intro">
+                <h1>
                     <strong>Collection Digital</strong>
                 </h1>
-                <p className="section__subtitle section__subtitle--intro">Desktop app for collectors and small museums</p>
+                <p>Desktop app for collectors and small museums</p>
                 <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="Collection Digital mockups" className="intro__img" />
             </section>
 

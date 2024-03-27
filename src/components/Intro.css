@@ -1,7 +1,6 @@
 /* mobile view + tablet portrait */
 /* 743 x 1023 */
 .intro {
-  background-color: darkviolet;
   position: relative;
 }
 
@@ -17,7 +16,6 @@
 /* desktop + tablet landscape */
 @media (min-width: 1024px) and (orientation: landscape) {
   .intro {
-    background-color: blue;
     display: grid;
     width: min-content;
     margin: 0 auto;
