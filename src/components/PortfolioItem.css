@@ -1,7 +1,8 @@
-.subtitle h3 {
+.subtitle {
   background-color: var(--clr-accent);
   color: var(--clr-light);
   font-family: RobotoMono;
+  font-size: var(--fs-h3);
   padding: 1rem;
 }
 
