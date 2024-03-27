@@ -11,6 +11,13 @@
   display: inline-block;
 }
 
+/* tablet */
+@media (min-width: 827px) and (max-width: 1023px) {
+  .intro {
+    background-color: thistle;
+  }
+}
+
 /* desktop landscape */
 @media (min-width: 1024px) and (orientation: landscape) {
   .intro {
