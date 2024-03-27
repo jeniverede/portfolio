@@ -62,21 +62,21 @@ input:hover {
 }
 
 /* tablet landscape */
-@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+@media (min-width: 600px) and (orientation: landscape) {
   .form {
     width: 40%;
   }
 }
 
 /* tablet portrait */
-@media (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+@media (min-width: 600px) and (orientation: portrait) {
   .form {
     width: 40%;
   }
 }
 
 /* desktop */
-@media (min-width: 1024px) and (orientation: landscape) {
+@media (min-width: 900px) and (orientation: landscape) {
   .form {
     width: 50%;
   }
