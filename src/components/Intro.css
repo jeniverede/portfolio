@@ -1,4 +1,5 @@
 /* mobile view + tablet portrait */
+/* 743 x 1023 */
 .intro {
   background-color: darkviolet;
   position: relative;
@@ -34,7 +35,7 @@
     z-index: 2;
   }
   /* Layout only, text styling in Typography */
- /*  .section__subtitle--intro {
+  .section__subtitle--intro {
     align-self: start;
     grid-column: -1 / 1;
     grid-row: 2;
@@ -42,5 +43,5 @@
     position: relative;
     left: -1.5rem;
     width: calc(100% + 2rem);
-  } */
+  }
 }
