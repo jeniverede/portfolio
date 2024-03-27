@@ -1,5 +1,8 @@
 .subtitle {
-background-color: var(--clr-accent);
+  background-color: var(--clr-accent);
+  color: var(--clr-light);
+  font-size: var(--fs-h3);
+  padding: 1rem;
 }
 
 .portfolio-item-individual {
@@ -49,7 +52,6 @@ background-color: var(--clr-accent);
 /* desktop */
 @media (min-width: 1024px) and (orientation: landscape) {
   .subtitle {
-    width: calc(100% + 4rem);
     text-align: right;
   }
 }
