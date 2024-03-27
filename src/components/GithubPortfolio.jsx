@@ -8,7 +8,7 @@ export default function GithubPortfolio() {
                 <h1>
                     <strong>Portfolio - Github</strong>
                 </h1>
-                <p>Github repo for portfolio website</p>
+                <p className="subtitle" >Github repo for portfolio website</p>
                 <img src="/portfolio_code.png" alt="Collection Digital mockups" className="intro__img" />
             </section>
 
