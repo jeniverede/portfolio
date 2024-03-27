@@ -58,6 +58,7 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+/* desktop + tablet landscape*/
   /* larger font-size for desktop 72px, 60px, 24px, 18px */
 @media (min-width: 1024px) and (orientation: landscape) {
     :root {

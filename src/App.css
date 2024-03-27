@@ -102,7 +102,7 @@ strong {
   margin-bottom: 1rem;
 }
 
-/* desktop */
+/* desktop + tablet landscape*/
 @media (min-width: 1024px) and (orientation: landscape) {
   .btn {
     font-size: 1.25rem;

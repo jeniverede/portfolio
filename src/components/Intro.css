@@ -1,3 +1,4 @@
+/* mobile view + tablet portrait */
 .intro {
   background-color: darkviolet;
   position: relative;
@@ -12,14 +13,7 @@
   display: inline-block;
 }
 
-/* tablet */
-@media (min-width: 827px) and (max-width: 1023px) {
-  .intro {
-    background-color: thistle;
-  }
-}
-
-/* desktop landscape */
+/* desktop + tablet landscape */
 @media (min-width: 1024px) and (orientation: landscape) {
   .intro {
     background-color: blue;
@@ -40,7 +34,7 @@
     z-index: 2;
   }
   /* Layout only, text styling in Typography */
-  .section__subtitle--intro {
+ /*  .section__subtitle--intro {
     align-self: start;
     grid-column: -1 / 1;
     grid-row: 2;
@@ -48,5 +42,5 @@
     position: relative;
     left: -1.5rem;
     width: calc(100% + 2rem);
-  }
+  } */
 }
