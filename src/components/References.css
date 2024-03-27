@@ -30,21 +30,6 @@
   padding-bottom: 0.625rem;
 }
 
-/* tablet landscape */
-@media (min-width: 600px) and (orientation: landscape) {
-  .references {
-    display: flex;
-    max-width: 62.5rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* + indicator looks at sibling to the right */
-  .reference + .reference {
-    margin-left: 3rem;
-  }
-}
-
 /* desktop */
 @media (min-width: 1024px) and (orientation: landscape) {
   .references {

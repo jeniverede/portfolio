@@ -7,39 +7,6 @@
   box-shadow: var(--bs);
 }
 
-/* tablet landscape */
-@media (min-width: 600px) and (orientation: landscape) {
-  .about-me {
-    display: grid;
-    grid-template-columns: 1fr 12.5rem;
-    grid-template-areas:
-      "title img"
-      "subtitle img"
-      "text img";
-    grid-column-gap: 2rem;
-  }
-
-  .section__title--about {
-    grid-area: title;
-  }
-
-  .section__subtitle--about {
-    grid-column: 1/-1;
-    grid-row: 2;
-    position: relative;
-    left: -1rem;
-    width: calc(100% + 2rem);
-    padding-left: 1rem;
-    padding-right: calc(12.5rem + 4rem);
-  }
-
-  .about-me__img {
-    grid-area: img;
-    position: relative;
-    z-index: 2;
-  }
-}
-
 /* desktop */
 @media (min-width: 1024px) and (orientation: landscape) {
   .about-me {
