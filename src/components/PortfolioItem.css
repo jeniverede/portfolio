@@ -4,7 +4,9 @@
   font-family: RobotoMono;
   font-size: var(--fs-h3);
   font-weight: 300;
+  height: fit-content;
   padding: 1rem;
+  margin: 1rem;
 }
 
 .portfolio-item-individual {
