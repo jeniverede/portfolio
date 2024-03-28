@@ -1,14 +1,12 @@
-.section__subtitle--project {
-  height: 43%;
-  font-size: var(--fs-h3);
-}
-
-.section__subtitle--project {
-  background: var(--clr-accent);
+.subtitle--project {
+  background-color: var(--clr-accent);
   color: var(--clr-light);
-  padding: 0.25rem 1rem;
   font-family: RobotoMono;
-  margin-bottom: 1rem;
+  line-height: 1.6rem;
+  font-weight: 300;
+  height: fit-content;
+  padding: 1rem;
+  margin: 1rem 0;
 }
 
 .portfolio-item-individual {
