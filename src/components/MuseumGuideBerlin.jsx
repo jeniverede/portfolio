@@ -5,10 +5,10 @@ export default function MuseumGuideBerlin() {
     return (
         <>
             <section className="intro">
-                <h1 className="section__title section__title--project">
+                <h1>
                     <strong>Museum Guide Berlin</strong>
                 </h1>
-                <h3 className="section__subtitle section__subtitle--project">mobile/desktop/tablet app for iOS</h3>
+                <h3 className="subtitle--project">mobile/desktop/tablet app for iOS</h3>
                 <img src="/MGB cover img 2.jpg" alt="Museum Guide Berlin mockups" className="intro__img" />
             </section>
 
