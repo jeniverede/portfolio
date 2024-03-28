@@ -3,6 +3,7 @@
   color: var(--clr-light);
   font-family: RobotoMono;
   font-size: var(--fs-h3);
+  line-height: 1rem;
   font-weight: 300;
   height: fit-content;
   padding: 1rem;
