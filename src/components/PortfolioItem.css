@@ -2,7 +2,7 @@
   background-color: var(--clr-accent);
   color: var(--clr-light);
   font-family: RobotoMono;
-  font-size: var(--fs-h3);
+  font-size: var(--fs-body);
   line-height: 1.6rem;
   font-weight: 300;
   height: fit-content;
