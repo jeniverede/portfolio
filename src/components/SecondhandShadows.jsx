@@ -8,7 +8,7 @@ export default function SecondhandShadows() {
                 <h1 className="section__title section__title--project">
                     <strong>Second hand Shadows</strong>
                 </h1>
-                <p className="section__subtitle section__subtitle--project">Mobile app for iOS & Android</p>
+                <h3 className="section__subtitle section__subtitle--project">mobile app for iOS & android</h3>
                 <img src="/ShS Card Mockup iOS 250.jpg" alt="Second hand Shadows mockups" className="intro__img" />
             </section>
 

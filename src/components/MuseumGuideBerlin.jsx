@@ -8,7 +8,7 @@ export default function MuseumGuideBerlin() {
                 <h1 className="section__title section__title--project">
                     <strong>Museum Guide Berlin</strong>
                 </h1>
-                <p className="section__subtitle section__subtitle--project">Mobile/Desktop/Tablet app for iOS</p>
+                <h3 className="section__subtitle section__subtitle--project">mobile/desktop/tablet app for iOS</h3>
                 <img src="/MGB cover img 2.jpg" alt="Museum Guide Berlin mockups" className="intro__img" />
             </section>
 

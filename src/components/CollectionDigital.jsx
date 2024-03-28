@@ -8,7 +8,7 @@ export default function CollectionDigital() {
                 <h1>
                     <strong>Collection Digital</strong>
                 </h1>
-                <p className="subtitle--portfolio">Desktop app for collectors and small museums</p>
+                <h3 className="subtitle--portfolio">desktop app for collectors and small museums</h3>
                 <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="Collection Digital mockups" className="intro__img" />
             </section>
 

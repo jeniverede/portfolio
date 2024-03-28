@@ -8,7 +8,7 @@ export default function TierheimBerlin() {
                 <h1 className="section__title section__title--project">
                     <strong>Tierheim Berlin</strong>
                 </h1>
-                <p className="section__subtitle section__subtitle--project">Mobile app for iOS & website redesign</p>
+                <h3 className="section__subtitle section__subtitle--project">mobile app for iOS & website redesign</h3>
                 <img src="/Tierheim Berlin cover img 2.jpg" alt="Tierheim Berlin mockups" className="intro__img" />
             </section>
 

@@ -12,7 +12,7 @@ export default function CostumeBlog() {
                         Blog
                     </strong>
                 </h1>
-                <p className="subtitle--portfolio">Personal blog for costume collections</p>
+                <h3 className="subtitle--portfolio">personal blog for costume collections</h3>
                 <img src="/CCB 401.png" alt="Costume Collections Blog" className="intro__img" />
             </section>
 
