@@ -31,7 +31,7 @@ export default function CostumeBlog() {
                 </div>
 
                 <div className="container_button">
-                    <a href="https://github.com/jeniverede?tab=stars" target="blank" className="btn">Github repository</a>
+                    <a href="https://github.com/jeniverede/blog_website.git" target="blank" className="btn">Github repository</a>
                 </div>
 
             </div >
