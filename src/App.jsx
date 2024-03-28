@@ -21,21 +21,23 @@ function App() {
 
   return (
     <>
-      <Nav />
+      <div className='center'>
+        <Nav />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/museumguideberlin" element={<MuseumGuideBerlin />} />
-        <Route path="/tierheimberlin" element={<TierheimBerlin />} />
-        <Route path="/secondhandshadows" element={<SecondhandShadows />} />
-        <Route path="/collectiondigital" element={<CollectionDigital />} />
-        <Route path="/costumeblog" element={<CostumeBlog/>} />
-        <Route path="/githubportfolio" element={<GithubPortfolio />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/museumguideberlin" element={<MuseumGuideBerlin />} />
+          <Route path="/tierheimberlin" element={<TierheimBerlin />} />
+          <Route path="/secondhandshadows" element={<SecondhandShadows />} />
+          <Route path="/collectiondigital" element={<CollectionDigital />} />
+          <Route path="/costumeblog" element={<CostumeBlog />} />
+          <Route path="/githubportfolio" element={<GithubPortfolio />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
 
-      <Contact />
-      <Footer />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 
