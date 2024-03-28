@@ -22,7 +22,7 @@
 
 /* General styles */
 .center {
-  width: 80%; /* Adjust this value according to your preference */
+  width: 100%; /* Adjust this value according to your preference */
   margin: 0 auto; /* This centers the container horizontally */
   /* Add any other styles you need for your container */
 }
