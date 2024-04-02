@@ -15,11 +15,11 @@ export default function Work() {
                         <p className="portfolio__item--title">Collection Digital - Group project</p>
                     </a>
                     {/* https://collection-digital.netlify.app */}
-                    <a href="/costumeblog" target="blank" className="portfolio__item">
-                        <img src="/CCB 401.png" alt="Costume Blog homepage" className="portfolio__img" />
-                        <p className="portfolio__item--title">Costume Blog</p>
+                    <a href="/brightstoneceramics" target="blank" className="portfolio__item">
+                        <img src="/bright-stone-ceramics.jpg" alt="Bright Stone Ceramics homepage" className="portfolio__img" />
+                        <p className="portfolio__item--title">Bright Stone Ceramics</p>
                     </a>
-                    {/* https://costumecollectionsblog.netlify.app */}
+                    {/* https://bright-stone-ceramics.netlify.app */}
                     <a href="/githubportfolio" target="blank" className="portfolio__item">
                         <img src="/portfolio_code.png" alt="VS Code for portfolio" className="portfolio__img" />
                         <p className="portfolio__item--title">Portfolio - Github</p>
