@@ -15,6 +15,7 @@ import TierheimBerlin from './components/TierheimBerlin';
 import SecondhandShadows from './components/SecondhandShadows';
 import CollectionDigital from './components/CollectionDigital';
 import BrightStoneCeramics from './components/BrightStoneCeramics';
+import MourningMemoryMemento from './components/MourningMemoryMemento';
 import GithubPortfolio from './components/GithubPortfolio';
 
 function App() {
@@ -31,8 +32,8 @@ function App() {
           <Route path="/secondhandshadows" element={<SecondhandShadows />} />
           <Route path="/collectiondigital" element={<CollectionDigital />} />
           <Route path="/brightstoneceramics" element={<BrightStoneCeramics />} />
+          <Route path="/mourning-memory-memento" element={<MourningMemoryMemento />} />
           <Route path="/githubportfolio" element={<GithubPortfolio />} />
-          <Route path="*" element={<Error />} />
         </Routes>
 
         <Contact />

@@ -15,20 +15,26 @@ export default function Work() {
                         <p className="portfolio__item--title">Collection Digital - Group project</p>
                     </a>
                     {/* https://collection-digital.netlify.app */}
+
                     <a href="/brightstoneceramics" target="blank" className="portfolio__item">
                         <img src="/bright-stone-ceramics.jpg" alt="Bright Stone Ceramics homepage" className="portfolio__img" />
                         <p className="portfolio__item--title">Bright Stone Ceramics</p>
                     </a>
                     {/* https://bright-stone-ceramics.netlify.app */}
+
                     <a href="/githubportfolio" target="blank" className="portfolio__item">
                         <img src="/portfolio_code.png" alt="VS Code for portfolio" className="portfolio__img" />
                         <p className="portfolio__item--title">Portfolio - Github</p>
                     </a>
-                </div>
-
-                <a href="https://github.com/jeniverede" target="blank" className="btn">My Github repository</a>
-
                     {/* https://github.com/jeniverede/portfolio.git */}
+
+                    <a href="/mourning-memory-memento" target="blank" className="portfolio__item">
+                        <img src="/MMM-home.jpg" alt="Mourning, Memory, Memento website image" className="portfolio__img" />
+                        <p className="portfolio__item--title">Mourning, Memory, Memento</p>
+                    </a>
+                    {/* https://mourning-memory-memento.netlify.app */}
+                    </div>
+
                 <h3 className="section__title section__title--work">UI Design</h3>
 
                 <div className="portfolio">
