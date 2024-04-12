@@ -27,7 +27,8 @@ export default function MourningMemoryMemento() {
                 </div>
 
                 <div className="img_container">
-                    <img src="/MMM-home-full.jpg" className="img" alt="Mourning, Memory, Memento website image" />
+                    <img src="/MMM-home-full.jpg" className="img" alt="Mourning, Memory, Memento website image" 
+                    style={{ border: '1px solid black' }}/>
                 </div>
 
                 <div className="container_button">
