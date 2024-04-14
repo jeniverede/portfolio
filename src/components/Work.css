@@ -5,14 +5,11 @@
 }
 
 .section__title--work {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.section__title--work {
   color: var(--clr-light);
   font-weight: 300;
   text-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* psuedo element/decorative bar after title, must have '' with empty content to show up */
