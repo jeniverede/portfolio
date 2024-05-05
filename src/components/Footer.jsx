@@ -25,6 +25,10 @@ export default function Footer() {
                     </a>
                 </div>
 
+                <div>
+                    <p>Thank you to Kevin Powell from Scrimba for the inspiration.</p>
+                </div>
+
         </footer>
 
     );
