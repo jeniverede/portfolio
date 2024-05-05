@@ -25,7 +25,7 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <div>
+                <div className="credit">
                     <p>Thank you to Kevin Powell from Scrimba for the inspiration.</p>
                 </div>
 
