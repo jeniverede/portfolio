@@ -9,7 +9,7 @@ export default function Intro() {
                     Hello, I'm <strong>Jennifer Rothrock</strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">frontend web/app developer + ui designer</p>
-                <img src="Jen headshot purple.jpg" alt="image of Jen" className="intro__img" />
+                <img src="Jen 24 purple.jpg" alt="image of Jen" className="intro__img" />
             </section>
         </>
     );

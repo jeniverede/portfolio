@@ -20,17 +20,15 @@ export default function Footer() {
             </ul>
 
             <div className="container_impressum">
-                    <a className="social-list__link" href="https://drive.google.com/file/d/1nZAWEWjlK0aRSQGeMCyQ2zQzWvZR7lzU/view?usp=sharing" target="blank">
-                        Impressum
-                    </a>
-                </div>
+                <a className="social-list__link" href="https://drive.google.com/file/d/1nZAWEWjlK0aRSQGeMCyQ2zQzWvZR7lzU/view?usp=sharing" target="blank">
+                    Impressum
+                </a>
+            </div>
 
-                <div className="credit">
-                    <p>Thank you to Kevin Powell from Scrimba for the inspiration.</p>
-                </div>
+            <div className="credit">
+                <p>Thank you to Kevin Powell from Scrimba for the inspiration.</p>
+            </div>
 
         </footer>
-
     );
-
 }
