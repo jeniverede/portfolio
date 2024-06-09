@@ -1,20 +1,36 @@
-header {
+.nav-desktop-container {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
-.logo {
-  max-width: 6.25rem;
+.nav-list-desktop {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style: none;
+  font-family: var(--ff-secondary);
 }
 
-.resume {
-  font-family: RobotoMono;
-  font-weight: 700;
+.nav__link {
+  color: inherit;
+  font-weight: 400;
   font-size: var(--fs-h3);
-  color: var(--clr-accent);
   text-decoration: none;
+}
+
+.nav__link:hover {
+  color: var(--clr-accent);
+}
+
+/* start of hamburger menu for mobile & tablet */
+.mobile-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
 .nav {
@@ -31,7 +47,7 @@ header {
   transition: 250ms cubic-bezier(0.5, 0, 0.5, 1);
 }
 
-.nav__list {
+.nav-list-mobile {
   list-style: none;
   height: 100%;
   display: flex;
@@ -40,17 +56,6 @@ header {
   align-items: left;
   margin-left: 3.125rem;
   padding: 0;
-}
-
-.nav__link {
-  color: inherit;
-  font-weight: 700;
-  font-size: var(--fs-h3);
-  text-decoration: none;
-}
-
-.nav__link:hover {
-  color: var(--clr-accent);
 }
 
 /* complex way of doing hamburger so we can animate */
@@ -78,7 +83,7 @@ header {
 }
 
 .nav-open .hamburger::before {
-  transform: rotate(90deg) translateX(-.375rem);
+  transform: rotate(90deg) translateX(-0.375rem);
 }
 
 .nav-open .hamburger::after {
@@ -95,7 +100,7 @@ header {
 .hamburger::after {
   background: var(--clr-accent);
   width: 2rem;
-  height: .188rem;
+  height: 0.188rem;
   border-radius: 1rem;
   transition: transform 250ms ease-in-out;
 }
@@ -109,17 +114,16 @@ header {
 }
 
 .hamburger::before {
-  top: .375rem;
+  top: 0.375rem;
 }
 
 .hamburger::after {
-  bottom: .375rem;
+  bottom: 0.375rem;
 }
 
-/* desktop */
-@media (min-width: 1024px) and (orientation: landscape) {
-  .nav-open .nav {
-    transform: translateX(75%);
+/* desktop + tablet landscape*/
+  @media (min-width: 1024px) and (orientation: landscape) {
+    .nav__link {
+      font-size: var(--fs-body);
+    }
   }
-}
-

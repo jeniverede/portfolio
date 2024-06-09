@@ -19,7 +19,7 @@ h2 {
 }
 
 input {
-  font-family: RobotoMono;
+  font-family: var(--ff-secondary);
   width: 100%;
   height: 2.188rem;
   padding: .438rem;
@@ -41,7 +41,7 @@ textarea {
 }
 
 label {
-  font-family: Poppins;
+  font-family: var(--ff-secondary);
   color: var(--clr-light);
   margin-top: 1rem;
 }
@@ -50,7 +50,7 @@ input[type="submit"] {
   margin-top: 2rem;
   cursor: pointer;
   background: var(--clr-accent);
-  font-family: Poppins;
+  font-family: var(--ff-secondary);
   color: var(--clr-light);
   border: none;
   border-radius: .313rem;

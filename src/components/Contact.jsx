@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contact.css";
 
@@ -19,11 +19,11 @@ export default function Contact() {
                 console.log(error.text);
             });
         e.target.reset();
-    };
+    }
 
     return (
         <>
-            <section className='form_container'>
+            <section id="contact" className='form_container'>
             <h2>Get in touch!</h2>
                 <form className="form" ref={form} onSubmit={sendEmail}>
                     <label>Name</label>
@@ -37,4 +37,4 @@ export default function Contact() {
             </section>
         </>
     );
-};
+}

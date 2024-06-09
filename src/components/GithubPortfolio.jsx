@@ -4,21 +4,28 @@ export default function GithubPortfolio() {
 
     return (
         <>
-            <section className="intro">
-                <h1>
-                    <strong>Portfolio - Github</strong>
-                </h1>
-                <h3 className="subtitle--portfolio">github repo for portfolio website</h3>
-                <img src="/portfolio_code.png" alt="Collection Digital mockups" className="intro__img" />
-            </section>
+            <div className="portfolio-page-container">
 
-            <div className="portfolio-item-individual">
-                <p className="bold-text">HTML, CSS, JavaScript, React</p>
+                <section className="portfolio-page-content">
+                    <h1>
+                        <strong>
+                            Portfolio - Github
+                        </strong>
+                    </h1>
 
-                <div className="container_button">
-                    <a href="https://github.com/jeniverede/portfolio.git" target="blank" className="btn">Github repository</a>
-                </div>
+                    <h3 className="header-subtitle">github repo for portfolio website</h3>
 
+                    <div className="content-text">
+                        <p className="bold-text">HTML, CSS, JavaScript, React</p>
+                        <div className="img_container">
+                        <img src="/portfolio_code.png" className="main_img" alt="screenshot of Github repository for portfolio"
+                        style={{width: '50%'}} />
+                    </div>
+                        <div className="container_button">
+                            <a href="https://github.com/jeniverede/portfolio.git" target="_blank" rel="noreferrer" className="btn">Github repository</a>
+                        </div>
+                    </div>
+                </section>
             </div>
         </>
     );

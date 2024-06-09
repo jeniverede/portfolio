@@ -1,0 +1,22 @@
+.back-to-top-btn {
+    position: fixed;
+    width: 3.5rem;
+    height: 3.5rem;
+    bottom: 1.25rem;
+    right: 1.125rem;
+    padding: .625rem 1.25rem;
+    background-color: var(--clr-accent);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.back-to-top-btn:hover {
+    opacity: 0.8;
+}
+

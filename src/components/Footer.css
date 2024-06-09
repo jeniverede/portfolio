@@ -7,6 +7,7 @@
 }
 
 #email-address {
+  font-family: var(--ff-secondary);
   font-size: var(--fs-body);
   font-weight: 700;
 }

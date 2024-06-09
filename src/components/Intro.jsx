@@ -4,13 +4,22 @@ export default function Intro() {
 
     return (
         <>
-            <section className="intro" id="home">
-                <h1 className="section__title section__title--intro">
-                    Hello, I'm <strong>Jennifer Rothrock</strong>
-                </h1>
-                <p className="section__subtitle section__subtitle--intro">frontend web/app developer + ui designer</p>
-                <img src="Jen 24 purple.jpg" alt="image of Jen" className="intro__img" />
-            </section>
+            <div id="intro-section" className="section-container">
+                <div className="items-container">
+                    <div className="div-img-bg">
+                        <div >
+                            <img src="/Jen 24 purple.jpg" className="intro-section-img" alt="me" />
+                        </div>
+                    </div>
+
+
+                    <div className="intro-descr">
+                        <h2 className="main-heading"> Hello, my name is <strong>Jennifer Rothrock</strong></h2>
+                        <br />
+                        <p className="paragraph">I&apos;m a Frontend Developer/ UI Designer who loves clean, simple & unique designs. </p>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }

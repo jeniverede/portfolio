@@ -1,25 +1,23 @@
-.subtitle--portfolio {
+.portfolio-page-content {
+  margin: auto;
+}
+
+.header-subtitle {
   background-color: var(--clr-accent);
   color: var(--clr-light);
-  font-family: RobotoMono;
+  font-family: var(--ff-secondary);
   line-height: 1.6rem;
   font-weight: 300;
-  height: fit-content;
-  padding: 1rem;
   margin: 1rem 0;
+  padding: 1rem;
 }
 
-.portfolio-item-individual {
-  padding: 0 2rem 2rem;
-  max-width: 62.5rem;
-  margin: 0 auto;
+.content-text {
+  text-align: center;
 }
 
-.portfolio-item-individual p {
-  max-width: 37.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
+.paragraph-text-container {
+  width: 100%;
 }
 
 .bold-text {
@@ -33,12 +31,28 @@
   margin: 3.125rem auto;
 }
 
-.img_mockup {
+.main_img {
   max-width: 100%; /* Maximum width equal to container width */
   height: auto; /* Automatically adjust height */
   display: block; /* Ensure it doesn't have extra space below */
   margin: 0 auto;
 }
+
+.container_button {
+  margin: 1rem 0;
+}
+
+.case-study {
+  width: 100%;
+}
+
+.not-found-text {
+  border: 3px solid;
+  border-color: var(--clr-accent);
+  margin: 3rem;
+  padding: 2rem;
+}
+
 
 /* psuedo element/decorative bar after title, must have '' with empty content to show up */
 /* .bold-text::after {
@@ -55,8 +69,13 @@
 
 /* desktop */
 @media (min-width: 1024px) and (orientation: landscape) {
-  .subtitle {
-    text-align: right;
-    align-items: center;
+  .main_img {
+    width: 60%;
+    margin: auto;
+  }
+
+  .paragraph-text-container {
+    width: 60%;
+    margin: auto;
   }
 }

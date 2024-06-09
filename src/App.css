@@ -35,7 +35,7 @@ body {
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
-  font-family: Poppins;
+  font-family: var(--ff-secondary);
   font-size: var(--fs-body);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -66,7 +66,7 @@ strong {
   text-decoration: none;
   justify-content: center;
   cursor: pointer;
-  font-family: RobotoMono;
+  font-family: var(--ff-secondary);
   font-size: 1rem;
   text-transform: lowercase;
   letter-spacing: 2px;
@@ -104,7 +104,7 @@ strong {
   background: var(--clr-accent);
   color: var(--clr-light);
   padding: 0.25rem 1rem;
-  font-family: RobotoMono;
+  font-family: var(--ff-secondary);
   margin-bottom: 1rem;
 }
 

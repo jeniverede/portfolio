@@ -16,8 +16,8 @@
 .section__title--work::before {
   content: "";
   display: block;
-  width: 6em;
-  height: 2px;
+  width: 14em;
+  height: 6px;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;

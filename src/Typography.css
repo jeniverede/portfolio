@@ -5,9 +5,28 @@
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
+
+  --ff-primary: PlayfairDisplay;
+  --ff-secondary: Poppins;
 }
 
 /* Font-face rules outside of :root */
+@font-face {
+  font-family: PlayfairDisplay;
+  src: local("PlayfairDisplay-Regular"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: local("PlayfairDisplay-Bold"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("/fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
 @font-face {
     font-family: Poppins;
     src: local("poppins-regular"),
@@ -24,22 +43,6 @@
     font-weight: 700;
   }
   
-  @font-face {
-    font-family: RobotoMono;
-    src: local("RobotoMono-Light"),
-      url("../public/fonts/Roboto-Mono/Roboto-Mono-Light.woff2") format("woff2"),
-      url("../public/fonts/Roboto-Mono/Roboto-Mono-Light.woff") format("woff");
-    font-weight: 300;
-  }
-  
-  @font-face {
-    font-family: RobotoMono;
-    src: local("RobotoMono-Bold"),
-      url("../public/fonts/Roboto-Mono/Roboto-Mono-Bold.woff2") format("woff2"),
-      url("../public/fonts/Roboto-Mono/Roboto-Mono-Bold.woff") format("woff");
-    font-weight: 700;
-  }
-
   /* Typography */
 h1,
 h2,
@@ -50,19 +53,22 @@ h3 {
 
 h1 {
   font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
 }
 h2 {
   font-size: var(--fs-h2);
+  font-family: var(--ff-primary);
 }
 h3 {
   font-size: var(--fs-h3);
+  font-family: var(--ff-primary);
 }
 
 /* desktop + tablet landscape*/
   /* larger font-size for desktop 72px, 60px, 24px, 18px */
 @media (min-width: 1024px) and (orientation: landscape) {
     :root {
-      --fs-h1: 4.5rem;
+      --fs-h1: 4rem;
       --fs-h2: 3.75rem;
       --fs-h3: 1.5rem;
       --fs-body: 1.125rem;
