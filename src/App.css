@@ -11,9 +11,9 @@
       bold: 700; */
 
   /* colors */
-  --clr-light: #fff;
+  --clr-light: rgb(255, 255, 255);
   --clr-dark: #242424;
-  --clr-accent: #682bd7;
+  --clr-accent:#682bd7 ;
 
   /* box shadow */
   --bs: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.25),

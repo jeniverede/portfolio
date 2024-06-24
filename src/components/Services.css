@@ -8,11 +8,46 @@
 }
 
 .section__title--services {
-  color: var(--clr-light);
   position: relative;
 }
 
+.services {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.left_align {
+  color: var(--clr-dark);
+  text-align: left;
+}
+
+.service {
+  background-color: var(--clr-light);
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.accent {
+  color: var(--clr-accent);
+}
+
+/* desktop */
+@media (min-width: 1024px) and (orientation: landscape) {
+  .services {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* + indicator looks at sibling to the right */
+  .service + .service {
+    margin-left: 2rem;
+  }
+}
+
 /* psuedo element/decorative bar after title, must have '' with empty content to show up */
+/* or currentColor to match accent color */
 .section__title--services::after {
   content: "";
   display: block;
@@ -22,30 +57,5 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   background: var(--clr-accent);
-  /* or currentColor to match accent color */
   opacity: 0.75;
-}
-
-.services {
-  margin-bottom: 4rem;
-}
-
-.service {
-  max-width: 31.25rem;
-  margin: 0 auto;
-}
-
-/* desktop */
-@media (min-width: 1024px) and (orientation: landscape) {
-  .services {
-    display: flex;
-    max-width: 62.5rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* + indicator looks at sibling to the right */
-  .service + .service {
-    margin-left: 2rem;
-  }
 }

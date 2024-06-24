@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.section__title {
+  color: var(--clr-light);
+}
+
 .section__title--work {
   color: var(--clr-light);
   font-weight: 300;

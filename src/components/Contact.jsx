@@ -24,7 +24,7 @@ export default function Contact() {
     return (
         <>
             <section id="contact" className='form_container'>
-            <h2>Get in touch!</h2>
+            <h2 className='title_white'>Get in touch!</h2>
                 <form className="form" ref={form} onSubmit={sendEmail}>
                     <label>Name</label>
                     <input type="text" name="Name" />

@@ -5,8 +5,8 @@
   align-items: center;
 }
 
-h2 {
-  color: var(--clr-accent);
+.title_white {
+  color: var(--clr-light);
 }
 
 .form {
