@@ -1,8 +1,5 @@
 .my-services {
-  background-image: url(/services-bg.jpg);
   background-color: var(--clr-dark);
-  background-size: cover;
-  /* background-blend-mode: multiply, darkens the image */
   color: var(--clr-light);
   text-align: center;
 }
@@ -17,19 +14,14 @@
 }
 
 .left_align {
-  color: var(--clr-dark);
+  color: var(--clr-light);
   text-align: left;
 }
 
 .service {
-  background-color: var(--clr-light);
   width: 100%;
   margin-bottom: 2rem;
   padding: 1.5rem;
-}
-
-.accent {
-  color: var(--clr-accent);
 }
 
 /* desktop */
