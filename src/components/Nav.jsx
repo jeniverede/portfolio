@@ -63,7 +63,7 @@ export default function Nav() {
                             <li className="nav__item"><Link to="/#work" className="nav__link">My Work</Link></li>
                             <li className="nav__item"><Link to="/#references" className="nav__link">References</Link></li>
                             <li className="nav__item"><Link to="/#contact" className="nav__link">Contact</Link></li>
-                            <li className="nav__item"><Link to="https://drive.google.com/file/d/1wTqG6u7NJw1l9kjfquvkcCZAKNsk4ksk/view?usp=sharing" className="nav__link" target="_blank" rel="noreferrer">Resume</Link></li>
+                            <li className="nav__item"><Link to="https://drive.google.com/file/d/1C4eeDrBUh7JIgZ4807TDtAz9aMrd0dnP/view?usp=sharing" className="nav__link" target="_blank" rel="noreferrer">Resume</Link></li>
                         </div>
                     </ul>
 
