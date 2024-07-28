@@ -7,21 +7,23 @@ export default function BrightStoneCeramics() {
             <div className="portfolio-page-container">
 
                 <section className="portfolio-page-content">
-                    <h1>
-                        <strong>
-                            Bright Stone Ceramics
-                        </strong>
-                    </h1>
+                    <header>
+                        <h1>
+                            <strong>
+                                Bright Stone Ceramics
+                            </strong>
+                        </h1>
 
-                    <h3 className="header-subtitle">e-commerce website for a ceramics studio</h3>
+                        <h3 className="header-subtitle">e-commerce website for a ceramics studio</h3>
+                    </header>
 
-                    <div className="content-text">
+                    <article className="content-text">
                         <p>E-commerce website for a fictional ceramics studio.
                             <br />
                             Features functional shopping cart
                         </p>
                         <p className="bold-text">HTML, CSS, Javascript, React,  Typescript, Bootstrap</p>
-                    </div>
+                    </article>
 
                     <div className="img_container">
                         <img src="/BrightStoneCeramicsfull.jpg" className="main_img" alt="Bright Stone Ceramics website image" />

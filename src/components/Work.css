@@ -1,15 +1,16 @@
+.my-work,
+.section__title,
+.section__title--work,
+.portfolio__item--title {
+  color: var(--clr-light);
+}
+
 .my-work {
   background-color: var(--clr-dark);
-  color: var(--clr-light);
   text-align: center;
 }
 
-.section__title {
-  color: var(--clr-light);
-}
-
 .section__title--work {
-  color: var(--clr-light);
   font-weight: 300;
   text-decoration: none;
   margin-top: 1rem;
@@ -43,7 +44,6 @@
 
 .portfolio__item--title {
   background-color: var(--clr-dark);
-  color: var(--clr-light);
   text-decoration: none;
   margin: 0;
   padding: 2.25rem;

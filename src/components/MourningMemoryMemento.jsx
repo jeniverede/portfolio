@@ -6,16 +6,17 @@ export default function MourningMemoryMemento() {
         <>
             <div className="portfolio-page-container">
                 <section className="portfolio-page-content">
-                    <h1>
-                        <strong>
-                            Mourning, Memory,Memento
-                        </strong>
-                    </h1>
- 
-                    <h3 className="header-subtitle">Website documenting my thesis from the MA Fashion Curation programme at London College of Fashion</h3>
+                    <header>
+                        <h1>
+                            <strong>
+                                Mourning, Memory,Memento
+                            </strong>
+                        </h1>
 
+                        <h3 className="header-subtitle">Website documenting my thesis from the MA Fashion Curation programme at London College of Fashion</h3>
+                    </header>
 
-                    <div className="content-text">
+                    <article className="content-text">
                         <p>Website documenting my thesis subject of Victorian mourning and the exhibition design.
                             Features image carousel.
                         </p>
@@ -35,7 +36,7 @@ export default function MourningMemoryMemento() {
                         <div className="container_button">
                             <a href="https://github.com/jeniverede/Memory_Mourning_Memento.git" target="_blank" rel="noreferrer" className="btn">Github repository</a>
                         </div>
-                    </div>
+                    </article>
                 </section>
             </div>
         </>

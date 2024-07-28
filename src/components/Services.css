@@ -1,7 +1,12 @@
+.my-services,
+.left_align {
+  color: var(--clr-light);
+}
+
 .my-services {
   background-color: var(--clr-dark);
-  color: var(--clr-light);
   text-align: center;
+  padding: 5rem 2.5rem;
 }
 
 .section__title--services {
@@ -14,7 +19,6 @@
 }
 
 .left_align {
-  color: var(--clr-light);
   text-align: left;
 }
 

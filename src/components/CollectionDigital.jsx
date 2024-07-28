@@ -7,21 +7,23 @@ export default function CollectionDigital() {
             <div className="portfolio-page-container">
 
                 <section className="portfolio-page-content">
-                    <h1>
-                        <strong>
-                            Collection Digital
-                        </strong>
-                    </h1>
+                    <header>
+                        <h1>
+                            <strong>
+                                Collection Digital
+                            </strong>
+                        </h1>
 
-                    <h3 className="header-subtitle">desktop app for collectors and small museums</h3>
+                        <h3 className="header-subtitle">desktop app for collectors and small museums</h3>
+                    </header>
 
-                    <div className="content-text">
+                    <article className="content-text">
                         <p>Design/Concept: The concept for Collection Digital came out of my time living in London,
                             <br />
                             working as a collection assistant for small museums and individual collectors.</p>
                         <p>Collaborators: Sona Chaboud, Jennifer Rothrock, Kevin Kalus & Reagan Sassan</p>
                         <p className="bold-text">HTML, CSS/Bootstrap, JavaScript, React, Node.js, MongoDB</p>
-                    </div>
+                    </article>
 
                     <div className="img_container">
                         <img src="/CD Mockups.jpg" className="main_img" alt="Collection Digtial mockups" />

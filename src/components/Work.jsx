@@ -5,11 +5,11 @@ export default function Work() {
     return (
         <>
             <section className="my-work" id="work">
-                <h2 className="section__title section__title">My Work</h2>
 
+                <h2 className="section__title section__title">My Work</h2>
                 <h3 className="section__title section__title--work">Web Development</h3>
 
-                <div className="portfolio">
+                <article className="portfolio">
                     <a href="/collectiondigital" target="_blank" rel="noreferrer" className="portfolio__item">
                         <img src="/CD Mockup MacBook Pro 14 401.jpeg" alt="Collection Digital Homepage" className="portfolio__img" />
                         <p className="portfolio__item--title">Collection Digital - Group project</p>
@@ -33,11 +33,11 @@ export default function Work() {
                         <p className="portfolio__item--title">Mourning, Memory, Memento</p>
                     </a>
                     {/* https://mourning-memory-memento.netlify.app */}
-                    </div>
+                </article>
 
                 <h3 className="section__title section__title--work">UI Design</h3>
 
-                <div className="portfolio">
+                <article className="portfolio">
                     <a href="museumguideberlin" target="_blank" rel="noreferrer" className="portfolio__item">
                         <img src="/MGB cover img 2.jpg" alt="Museum Guide Berlin" className="portfolio__img" />
                         <p className="portfolio__item--title">Museum Guide Berlin</p>
@@ -49,10 +49,10 @@ export default function Work() {
                     </a>
 
                     <a href="secondhandshadows" target="_blank" rel="noreferrer" className="portfolio__item">
-                        <img src="/ShS Card Mockup iOS 401.jpg" alt="" className="portfolio__img" />
+                        <img src="/ShS Card Mockup iOS 401.jpg" alt="Second Hand Shadows" className="portfolio__img" />
                         <p className="portfolio__item--title">Second hand Shadows</p>
                     </a>
-                </div>
+                </article>
 
             </section >
         </>

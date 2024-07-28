@@ -69,11 +69,7 @@
 
 /* desktop */
 @media (min-width: 1024px) and (orientation: landscape) {
-  .main_img {
-    width: 60%;
-    margin: auto;
-  }
-
+  .main_img,
   .paragraph-text-container {
     width: 60%;
     margin: auto;

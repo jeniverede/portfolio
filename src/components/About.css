@@ -5,6 +5,7 @@
 
 #title_accent {
   color: var(--clr-accent);
+  margin-bottom: 1rem;
 }
 
 .about-me__img {
@@ -32,9 +33,10 @@
     grid-row: 2;
     position: relative;
     left: -1em;
-    width: calc(100% + 2em);
+    width: calc(125% + 2em);
+    margin: 1.5rem;
     padding-left: 1em;
-    padding-right: calc(200px + 4em);
+    padding-right: calc(100px + 4em);
   }
 
   .about-me__img {
