@@ -18,7 +18,7 @@ export default function BrightStoneCeramics() {
                     </header>
 
                     <article className="content-text">
-                        <p>E-commerce website for a fictional ceramics studio.
+                        <p>E-commerce website for an aspirational ceramics studio.
                             <br />
                             Features functional shopping cart
                         </p>
