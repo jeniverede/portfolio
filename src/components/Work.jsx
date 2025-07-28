@@ -35,7 +35,7 @@ export default function Work() {
                     {/* https://mourning-memory-memento.netlify.app */}
                 </article>
 
-                <h3 className="section__title section__title--work">UI Design</h3>
+                <h3 className="section__title section__title--work">UI/UX Design</h3>
 
                 <article className="portfolio">
                     <a href="museumguideberlin" target="_blank" rel="noreferrer" className="portfolio__item">

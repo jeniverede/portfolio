@@ -6,14 +6,14 @@ export default function About() {
         <section className="about-me" id="about">
             <header>
                 <h2 id="title_accent" className="section__title section__title--about">Who I am</h2>
-                <p className="section__subtitle section__subtitle--about">developer + designer based in Berlin</p>
+                <p className="section__subtitle section__subtitle--about">digital designer + developer based in Berlin</p>
             </header>
 
             <article className="about-me__body">
                 <p>Hi, I&apos;m Jennifer, thanks for visiting my website!
                     <br />
                     <br />
-                    Going into 2024, my career goals revolve around combining my design & UI skills with coding. I&apos;m looking for a full-time role as Frontend/ UI Developer for organisations dedicated to causes close to my heart, including those that support animals, the environment, people, businesses or heritage preservation. I aspire to contribute my skills and experience to a nurturing and supportive work environment that values individuality.
+                    My career goals revolve around combining my design & UI skills with coding. I&apos;m looking for a full-time role as Web Designer / Frontend Developer for organisations dedicated to causes close to my heart, including those that support animals, the environment, creativity, or heritage preservation. I want to contribute my skills and experience to a nurturing and supportive work environment that values individuality.
                 </p>
             </article>
 

@@ -15,7 +15,7 @@ export default function Services() {
 
                 <section className="service">
                     <h3>UI/UX Design</h3>
-                    <p className="left_align">With 25 years of experience in design and product development, I
+                    <p className="left_align">With many years of experience in design and product development, I
                         bring my expertise in creating visually appealing and user-friendly digital interfaces. I have a unique blend of creativity, aesthetic taste, and business perspective.
                     </p>
                 </section>

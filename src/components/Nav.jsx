@@ -58,7 +58,7 @@ export default function Nav() {
                         <div className="nav-desktop-container">
                             <img src="/jennifer.svg" alt="logo" />
                             <li className="nav__item"><Link to="/#home" className="nav__link">Home</Link></li>
-                            <li className="nav__item"><Link to="/#services" className="nav__link">My Services</Link></li>
+                            <li className="nav__item"><Link to="/#services" className="nav__link">Skills</Link></li>
                             <li className="nav__item"><Link to="/#about" className="nav__link">About me</Link></li>
                             <li className="nav__item"><Link to="/#work" className="nav__link">My Work</Link></li>
                             <li className="nav__item"><Link to="/#references" className="nav__link">References</Link></li>

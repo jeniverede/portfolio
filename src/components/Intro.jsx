@@ -16,7 +16,7 @@ export default function Intro() {
                     <article className="intro-descr">
                         <h2 className="main-heading"> Hello, my name is <strong>Jennifer Rothrock</strong></h2>
                         <br />
-                        <p className="paragraph">I&apos;m a Frontend Developer/ UI Designer who loves clean, simple & unique designs. </p>
+                        <p className="paragraph">I&apos;m a Web Designer &amp; Frontend Developer who loves clean, simple & unique designs. </p>
                     </article>
                 </div>
             </section>
