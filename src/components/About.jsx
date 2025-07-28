@@ -13,7 +13,7 @@ export default function About() {
                 <p>Hi, I&apos;m Jennifer, thanks for visiting my website!
                     <br />
                     <br />
-                    My career goals revolve around combining my design & UI skills with coding. I&apos;m looking for a full-time role as Web Designer / Frontend Developer for organisations dedicated to causes close to my heart, including those that support animals, the environment, creativity, or heritage preservation. I want to contribute my skills and experience to a nurturing and supportive work environment that values individuality.
+                    My career goals revolve around combining my design & UI/UX skills with coding. I&apos;m looking for a full-time role as Web Designer / Frontend Developer for organisations dedicated to causes close to my heart, including those that support animals, the environment, creativity, or heritage preservation. I want to contribute my skills and experience to a nurturing and supportive work environment that values individuality.
                 </p>
             </article>
 
