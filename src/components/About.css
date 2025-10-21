@@ -34,7 +34,7 @@
 
   .about-me__img {
     grid-area: img;
-    width: 100%;       /* fill the grid column */
+    width: 80%;       /* fill the grid column */
     max-width: 400px;  /* cap image size */
     height: auto;
     margin: 0;
