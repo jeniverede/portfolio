@@ -1,29 +1,43 @@
+/* Mobile-first: default */
 .about-me__img {
-  width: 80%;        /* Mobile default */
-  max-width: 300px;  /* Prevent it from being too big */
+  width: 80%;        /* Mobile-friendly size */
+  max-width: 300px;  /* Prevent huge image on small screens */
   height: auto;      /* Maintain aspect ratio */
-  box-shadow: var(--bs);
   display: block;
-  margin: 1rem auto; /* Center image on small screens */
+  margin: 1rem auto; /* Center image */
+  box-shadow: var(--bs);
 }
 
 /* Tablet: 768px – 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
   .about-me__img {
-    width: 60%;       /* Slightly bigger than mobile */
-    max-width: 400px; /* Limit maximum width */
+    width: 70%;        /* Slightly larger than mobile */
+    max-width: 400px;  /* Prevent it from being too big */
     margin: 1.5rem auto;
   }
 }
 
-/* Desktop: 1024px+ (your current grid layout) */
+/* Desktop: 1024px+ with grid layout */
 @media (min-width: 1024px) and (orientation: landscape) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 200px; /* Text and image columns */
+    grid-template-areas:
+      "title img"
+      "subtitle img"
+      "text img";
+    grid-column-gap: 2em;
+  }
+
   .about-me__img {
-    width: 150%;      /* Your desired desktop size */
-    max-width: none;  /* Allow full expansion in the grid */
-    margin: 0;        /* Use grid positioning instead of centering */
+    grid-area: img;
+    width: 100%;       /* Fill its grid cell */
+    max-width: 200px;  /* Match the column width */
+    height: auto;
+    margin: 0;         /* Grid controls spacing */
     position: relative;
     z-index: 2;
   }
 }
+
 
