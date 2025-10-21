@@ -17,11 +17,10 @@
   }
 }
 
-
 @media (min-width: 1024px) {
   .about-me {
     display: grid;
-    grid-template-columns: 1fr 300px; /* wider image column */
+    grid-template-columns: minmax(0, 600px) 300px; /* narrower content width */
     grid-template-areas:
       "title img"
       "subtitle img"
