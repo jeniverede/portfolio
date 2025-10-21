@@ -11,7 +11,7 @@
 /* Tablet: 768px – 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
   .about-me__img {
-    width: 70%;        /* Slightly larger than mobile */
+    width: 80%;        
     max-width: 400px;  /* Prevent it from being too big */
     margin: 1.5rem auto;
   }
