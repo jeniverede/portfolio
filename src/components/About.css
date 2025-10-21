@@ -17,11 +17,10 @@
   }
 }
 
-/* Desktop: 1024px+ with grid layout */
-@media (min-width: 1024px) and (orientation: landscape) {
+@media (min-width: 1024px) {
   .about-me {
     display: grid;
-    grid-template-columns: 1fr 200px; /* Text and image columns */
+    grid-template-columns: 1fr 400px; /* wider image column */
     grid-template-areas:
       "title img"
       "subtitle img"
@@ -31,13 +30,14 @@
 
   .about-me__img {
     grid-area: img;
-    width: 100%;       /* Fill its grid cell */
-    max-width: 200px;  /* Match the column width */
+    width: 100%;       /* fill the grid column */
+    max-width: none;   /* let it expand fully inside the 400px column */
     height: auto;
-    margin: 0;         /* Grid controls spacing */
+    margin: 0;
     position: relative;
     z-index: 2;
   }
 }
+
 
 
