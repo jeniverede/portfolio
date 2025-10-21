@@ -20,24 +20,29 @@
 @media (min-width: 1024px) {
   .about-me {
     display: grid;
-    grid-template-columns: minmax(0, 600px) 300px; /* narrower content width */
+    grid-template-columns: minmax(0, 600px) auto; /* text column + image column */
     grid-template-areas:
       "title img"
       "subtitle img"
       "text img";
     grid-column-gap: 2em;
+    justify-content: center;  /* center the grid horizontally */
+    max-width: 1000px;        /* optional: cap overall width */
+    margin: 0 auto;           /* center the container */
+    align-items: start;
   }
 
   .about-me__img {
     grid-area: img;
     width: 100%;       /* fill the grid column */
-    max-width: none;   /* let it expand fully inside the 400px column */
+    max-width: 400px;  /* cap image size */
     height: auto;
     margin: 0;
     position: relative;
     z-index: 2;
   }
 }
+
 
 
 
