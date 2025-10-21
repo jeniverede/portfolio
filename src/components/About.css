@@ -20,14 +20,14 @@
 @media (min-width: 1024px) {
   .about-me {
     display: grid;
-    grid-template-columns: minmax(0, 700px) auto; /* text column + image column */
+    grid-template-columns: minmax(0, 600px) auto; /* text column + image column */
     grid-template-areas:
       "title img"
       "subtitle img"
       "text img";
     grid-column-gap: 2em;
     justify-content: center;  /* center the grid horizontally */
-    max-width: 1000px;        /* optional: cap overall width */
+    max-width: 1200px;        /* optional: cap overall width */
     margin: 0 auto;           /* center the container */
     align-items: start;
   }
