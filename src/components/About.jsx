@@ -17,7 +17,7 @@ export default function About() {
                 </p>
             </article>
 
-            <img src="Jen computer.jpg" alt="image Jen working" className="about-me__img" width="400" height="377" />
+            <img src="Jen computer.jpg" alt="image Jen working" className="about-me__img" />
         </section>
     );
 }
