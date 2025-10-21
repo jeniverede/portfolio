@@ -17,7 +17,7 @@ export default function About() {
                 </p>
             </article>
 
-            <img src="Jen computer.jpg" alt="image Jen working" className="about-me__img" style={{ width: "30%", height: "auto" }}
+            <img src="Jen computer.jpg" alt="image Jen working" className="about-me__img" style={{ width: "100%", height: "auto" }}
  />
         </section>
     );
