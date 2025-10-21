@@ -11,11 +11,12 @@
 /* Tablet: 768px – 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
   .about-me__img {
-    width: 100%;        
-    max-width: 400px;  /* Prevent it from being too big */
+    width: 90%;       /* Take more space in container */
+    max-width: 500px; /* Bigger max-width for tablet */
     margin: 1.5rem auto;
   }
 }
+
 
 @media (min-width: 1024px) {
   .about-me {
