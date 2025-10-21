@@ -20,7 +20,7 @@
 @media (min-width: 1024px) {
   .about-me {
     display: grid;
-    grid-template-columns: minmax(0, 600px) auto; /* text column + image column */
+    grid-template-columns: minmax(0, 700px) auto; /* text column + image column */
     grid-template-areas:
       "title img"
       "subtitle img"
