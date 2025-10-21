@@ -8,7 +8,7 @@ export default function Intro() {
                 <div className="items-container">
                     <div className="div-img-bg">
                         <div >
-                            <img src="/Jen 24 purple.jpg" className="intro-section-img" alt="me" />
+                            <img src="/Jen glasses.jpg" className="intro-section-img" alt="me" />
                         </div>
                     </div>
 
