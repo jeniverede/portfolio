@@ -20,25 +20,25 @@ export default function Footer() {
             </ul>
 
             <div className="container_impressum">
-  <a
-    className="social-list__link"
-    href="/impressum"
-    target="_blank"
-    rel="noreferrer"
-  >
-    Impressum
-  </a>
-  
-  <a
-    className="social-list__link"
-    href="/privacy-policy"
-    target="_blank"
-    rel="noreferrer"
-    style={{ marginLeft: "1rem" }} // optional spacing between links
-  >
-    Privacy Policy
-  </a>
-</div>
+                <a
+                    className="social-list__link"
+                    href="/impressum"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Impressum
+                </a>
+
+                <a
+                    className="social-list__link"
+                    href="/privacy-policy"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ marginLeft: "3rem" }} // optional spacing between links
+                >
+                    Privacy Policy
+                </a>
+            </div>
 
         </footer>
     );
