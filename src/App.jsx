@@ -20,8 +20,8 @@ import CollectionDigital from './components/CollectionDigital';
 import BrightStoneCeramics from './components/BrightStoneCeramics';
 import MourningMemoryMemento from './components/MourningMemoryMemento';
 import GithubPortfolio from './components/GithubPortfolio';
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import Impressum from "./pages/Impressum";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import Impressum from "./components/Impressum";
 
 function App() {
   return (
