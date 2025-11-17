@@ -128,7 +128,7 @@ export default function PrivacyPolicy() {
         <li>Right to withdraw consent / Recht auf Widerruf der Einwilligung (Art. 7(3))</li>
         <li>Right to lodge a complaint / Recht auf Beschwerde bei einer Aufsichtsbehörde (Art. 77)</li>
       </ul>
-      <p style={paragraphStyle}>Exercise your rights by contacting me / Üben Sie Ihre Rechte aus, indem Sie mich kontaktieren: your-email@example.com</p>
+      <p style={paragraphStyle}>Exercise your rights by contacting me / Üben Sie Ihre Rechte aus, indem Sie mich kontaktieren: jennifer.r.rothrock@gmail.com</p>
 
       {/* 10. Data Security */}
       <h2 style={subHeadingStyle}>10. Data Security / Datensicherheit</h2>
