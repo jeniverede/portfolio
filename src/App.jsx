@@ -20,6 +20,8 @@ import CollectionDigital from './components/CollectionDigital';
 import BrightStoneCeramics from './components/BrightStoneCeramics';
 import MourningMemoryMemento from './components/MourningMemoryMemento';
 import GithubPortfolio from './components/GithubPortfolio';
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Impressum from "./pages/Impressum";
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route path="/brightstoneceramics" element={<BrightStoneCeramics />} />
         <Route path="/mourning-memory-memento" element={<MourningMemoryMemento />} />
         <Route path="/githubportfolio" element={<GithubPortfolio />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/impressum" element={<Impressum />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Contact />
