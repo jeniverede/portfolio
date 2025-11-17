@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
   const listStyle = { margin: "0.5rem 0 1rem 1.5rem", lineHeight: "1.6" };
 
   return (
-    <main style={{ padding: "2rem", maxWidth: "800px", margin: "0 auto", fontFamily: "Arial, sans-serif" }}>
+    <main style={{ padding: "2rem", maxWidth: "800px", margin: "0 auto", fontFamily: "Poppins, sans-serif" }}>
       <h1 style={headingStyle}>Privacy Policy / Datenschutzerklärung</h1>
       <p style={paragraphStyle}><strong>Last updated / Zuletzt aktualisiert:</strong> November 17, 2025</p>
 
