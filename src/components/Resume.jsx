@@ -1,16 +1,9 @@
-import { useState } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
-
-// Set the PDF.js worker
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import { Worker, Viewer } from "@react-pdf-viewer/core";
+import "@react-pdf-viewer/core/lib/styles/index.css";
+import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
 export default function Resume() {
   const resumeUrl = "/Resume.pdf"; // PDF in public folder
-  const [numPages, setNumPages] = useState(null);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
 
   return (
     <div
@@ -32,22 +25,10 @@ export default function Resume() {
       </p>
 
       {/* PDF Viewer */}
-      <div style={{ width: "100%", overflowY: "auto" }}>
-        <Document
-          file={resumeUrl}
-          onLoadSuccess={onDocumentLoadSuccess}
-          loading="Loading PDF..."
-        >
-          {Array.from(new Array(numPages), (el, index) => (
-            <Page
-              key={`page_${index + 1}`}
-              pageNumber={index + 1}
-              width={Math.min(900, window.innerWidth - 32)} // responsive
-              renderTextLayer={true}
-              renderAnnotationLayer={false}
-            />
-          ))}
-        </Document>
+      <div style={{ border: "1px solid #ccc", borderRadius: "5px", overflow: "hidden" }}>
+        <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.12.313/build/pdf.worker.min.js`}>
+          <Viewer fileUrl={resumeUrl} />
+        </Worker>
       </div>
 
       {/* Download Button */}
@@ -75,4 +56,5 @@ export default function Resume() {
     </div>
   );
 }
+
 
