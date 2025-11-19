@@ -3,9 +3,9 @@ export default function Resume() {
 
   return (
     <div style={{ maxWidth: "900px", margin: "0 auto", paddingTop: "4rem", textAlign: "center" }}>
-      <h1>My Resume</h1>
+      <h1 style={{ color: "#682bd7", marginBottom: "1rem" }}> My Resume </h1>
       <p style={{ marginBottom: "1rem" }}>
-        Scroll below to view or click download to open in a new tab.
+        Scroll below to view or click download in the viewer menu.
       </p>
 
       {/* Responsive PDF Embed */}
@@ -22,29 +22,6 @@ export default function Resume() {
             border: "1px solid #ccc",
           }}
         ></iframe>
-      </div>
-
-      {/* Download Button */}
-      <div style={{ marginTop: "1.5rem", marginBottom: "3rem" }}>
-        <a
-          href={resumeUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: "inline-block",
-            padding: "0.75rem 1.5rem",
-            backgroundColor: "var(--clr-accent)",
-            color: "#fff",
-            borderRadius: "5px",
-            textDecoration: "none",
-            fontWeight: "bold",
-            transition: "background-color 0.3s",
-          }}
-          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#531fb0")}
-          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#682bd7")}
-        >
-          Download Resume
-        </a>
       </div>
     </div>
   );
