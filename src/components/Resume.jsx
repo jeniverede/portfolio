@@ -1,5 +1,5 @@
 export default function Resume() {
-  const resumeUrl = "/Resume.pdf";
+  const resumeUrl = "/Resume.pdf"; // PDF in public folder
 
   return (
     <div
@@ -7,23 +7,25 @@ export default function Resume() {
         maxWidth: "900px",
         margin: "0 auto",
         textAlign: "center",
-        paddingTop: "5rem",
+        paddingTop: "5rem", // space from sticky header
         paddingLeft: "1rem",
         paddingRight: "1rem",
       }}
     >
+      {/* Page Title */}
       <h1 style={{ color: "#682bd7", marginBottom: "1.5rem" }}>My Resume</h1>
 
+      {/* Instructional text (optional) */}
       <p style={{ marginBottom: "2rem", fontSize: "1rem", color: "#333" }}>
         Scroll through the PDF below. Use the browser controls to download or print if needed.
       </p>
 
-      {/* Scrollable PDF container */}
+      {/* Responsive, scrollable PDF container */}
       <div
         style={{
           width: "100%",
-          height: "80vh", // or calc(100vh - 6rem)
-          overflow: "auto",
+          height: "calc(100vh - 8rem)", // almost full viewport minus header
+          overflowY: "auto",
           border: "1px solid #ccc",
           borderRadius: "8px",
         }}
@@ -41,5 +43,6 @@ export default function Resume() {
     </div>
   );
 }
+
 
 
