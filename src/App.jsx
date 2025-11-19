@@ -22,6 +22,7 @@ import MourningMemoryMemento from './components/MourningMemoryMemento';
 import GithubPortfolio from './components/GithubPortfolio';
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import Impressum from "./components/Impressum";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/githubportfolio" element={<GithubPortfolio />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/impressum" element={<Impressum />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Contact />
