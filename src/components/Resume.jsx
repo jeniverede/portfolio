@@ -24,7 +24,7 @@ export default function Resume() {
 
       {/* Instructions */}
       <p style={{ marginBottom: "2rem", fontSize: "1rem", color: "#333" }}>
-        Scroll through the resume below. Use the button to open in a new tab and download if needed.
+        Scroll through the resume below. Use the download button at the bottom to open in a new tab and download if needed.
       </p>
 
       {/* Render each page image */}
