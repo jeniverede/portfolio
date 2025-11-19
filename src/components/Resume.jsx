@@ -1,9 +1,30 @@
-import { Worker, Viewer } from "@react-pdf-viewer/core";
-import "@react-pdf-viewer/core/lib/styles/index.css";
-import "@react-pdf-viewer/default-layout/lib/styles/index.css";
+import { useState, useEffect } from "react";
+import { Document, Page, pdfjs } from "react-pdf";
+
+// Local PDF.js worker (Netlify-safe)
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  "pdfjs-dist/build/pdf.worker.min.js",
+  import.meta.url
+).toString();
 
 export default function Resume() {
-  const resumeUrl = "/Resume.pdf"; // PDF in public folder
+  const resumeUrl = "/Resume.pdf"; // Place your PDF in public folder
+  const [numPages, setNumPages] = useState(null);
+  const [pageWidth, setPageWidth] = useState(900);
+
+  // Responsive width
+  useEffect(() => {
+    const handleResize = () => {
+      setPageWidth(Math.min(900, window.innerWidth - 32));
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
 
   return (
     <div
@@ -16,22 +37,36 @@ export default function Resume() {
         paddingRight: "1rem",
       }}
     >
-      {/* Page Title */}
       <h1 style={{ color: "#682bd7", marginBottom: "2rem" }}>My Resume</h1>
 
-      {/* Instruction */}
       <p style={{ marginBottom: "2rem", fontSize: "1rem", color: "#333" }}>
         Scroll through the PDF below. Use the button to open in a new tab and download if needed.
       </p>
 
-      {/* PDF Viewer */}
-      <div style={{ border: "1px solid #ccc", borderRadius: "5px", overflow: "hidden" }}>
-        <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.12.313/build/pdf.worker.min.js`}>
-          <Viewer fileUrl={resumeUrl} />
-        </Worker>
+      <div
+        style={{
+          border: "1px solid #ccc",
+          borderRadius: "5px",
+          overflow: "hidden",
+        }}
+      >
+        <Document
+          file={resumeUrl}
+          onLoadSuccess={onDocumentLoadSuccess}
+          loading="Loading PDF..."
+        >
+          {Array.from(new Array(numPages), (el, index) => (
+            <Page
+              key={`page_${index + 1}`}
+              pageNumber={index + 1}
+              width={pageWidth}
+              renderTextLayer={true}
+              renderAnnotationLayer={false}
+            />
+          ))}
+        </Document>
       </div>
 
-      {/* Download Button */}
       <div style={{ marginTop: "2rem", marginBottom: "3rem" }}>
         <a
           href={resumeUrl}
@@ -56,5 +91,6 @@ export default function Resume() {
     </div>
   );
 }
+
 
 
