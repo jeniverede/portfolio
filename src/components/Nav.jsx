@@ -76,7 +76,7 @@ export default function Nav() {
                 <div className="mobile-nav">
                     <img src="/jennifer.svg" alt="logo" />
 
-                    <Link to="https://drive.google.com/file/d/1xvWsWIL3VHgUHEhgffHrQ_BG21T5v7G_" target="_blank" rel="noreferrer" className="nav__link">Resume</Link>
+                    <Link to="/resume" className="nav__link">Resume</Link>
 
                     <button className="nav-toggle" aria-label="toggle navigation">
                         <span className="hamburger"></span>
@@ -90,6 +90,7 @@ export default function Nav() {
                             <li className="nav__item"><Link to="/#work" className="nav__link">My Work</Link></li>
                             <li className="nav__item"><Link to="/#references" className="nav__link">References</Link></li>
                             <li className="nav__item"><Link to="/#contact" className="nav__link">Contact</Link></li>
+                            
                         </ul>
                     </nav>
                 </div>
