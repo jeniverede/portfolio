@@ -2,7 +2,7 @@ export default function Resume() {
   const resumeUrl = "/Resume.pdf"; // PDF in public folder
 
   return (
-    <div style={{ maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
+    <div style={{ maxWidth: "900px", margin: "0 auto", paddingTop: "4rem", textAlign: "center" }}>
       <h1>My Resume</h1>
       <p style={{ marginBottom: "1rem" }}>
         Scroll below to view or click download to open in a new tab.
@@ -33,15 +33,15 @@ export default function Resume() {
           style={{
             display: "inline-block",
             padding: "0.75rem 1.5rem",
-            backgroundColor: "#0073aa",
+            backgroundColor: "var(--clr-accent)",
             color: "#fff",
             borderRadius: "5px",
             textDecoration: "none",
             fontWeight: "bold",
             transition: "background-color 0.3s",
           }}
-          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#005177")}
-          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#0073aa")}
+          onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#531fb0")}
+          onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#682bd7")}
         >
           Download Resume
         </a>
