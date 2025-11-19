@@ -1,5 +1,12 @@
 export default function Resume() {
-  const resumeUrl = "/Resume.pdf"; // Place your PDF in public folder
+  // Add all your PDF page images here
+  const pages = [
+    "/Resume_1.jpg",
+    "/Resume_2.jpg",
+    // Add more pages as needed
+  ];
+
+  const resumePdf = "/Resume.pdf"; // Original PDF for download
 
   return (
     <div
@@ -7,30 +14,41 @@ export default function Resume() {
         maxWidth: "900px",
         margin: "0 auto",
         textAlign: "center",
-        paddingTop: "5rem",
+        paddingTop: "5rem", // space from header
         paddingLeft: "1rem",
         paddingRight: "1rem",
       }}
     >
+      {/* Page Title */}
       <h1 style={{ color: "#682bd7", marginBottom: "2rem" }}>My Resume</h1>
 
+      {/* Instructions */}
       <p style={{ marginBottom: "2rem", fontSize: "1rem", color: "#333" }}>
-        Scroll through the PDF below. Use the button to open in a new tab and download if needed.
+        Scroll through the resume below. Use the button to open in a new tab and download if needed.
       </p>
 
-      {/* Responsive PDF iframe */}
-      <div style={{ width: "100%", height: "100vh", border: "1px solid #ccc" }}>
-        <iframe
-          src={resumeUrl}
-          title="Resume"
-          style={{ width: "100%", height: "100%", border: "none" }}
-        ></iframe>
+      {/* Render each page image */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "1rem",
+        }}
+      >
+        {pages.map((src, index) => (
+          <img
+            key={index}
+            src={src}
+            alt={`Resume page ${index + 1}`}
+            style={{ width: "100%", height: "auto", border: "1px solid #ccc", borderRadius: "5px" }}
+          />
+        ))}
       </div>
 
       {/* Download Button */}
       <div style={{ marginTop: "2rem", marginBottom: "3rem" }}>
         <a
-          href={resumeUrl}
+          href={resumePdf}
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -52,3 +70,4 @@ export default function Resume() {
     </div>
   );
 }
+
