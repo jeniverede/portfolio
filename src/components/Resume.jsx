@@ -1,4 +1,4 @@
-export default function ResumePage() {
+export default function Resume() {
   const resumeUrl = "/Resume.pdf"; // PDF in public folder
 
   return (
