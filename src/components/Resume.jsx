@@ -1,26 +1,5 @@
-import { useState, useEffect } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
-
-// Use static worker in public folder
-pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.js";
-
 export default function Resume() {
-  const resumeUrl = "/Resume.pdf";
-  const [numPages, setNumPages] = useState(null);
-  const [pageWidth, setPageWidth] = useState(900);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setPageWidth(Math.min(900, window.innerWidth - 32));
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
+  const resumeUrl = "/Resume.pdf"; // Place your PDF in public folder
 
   return (
     <div
@@ -34,34 +13,21 @@ export default function Resume() {
       }}
     >
       <h1 style={{ color: "#682bd7", marginBottom: "2rem" }}>My Resume</h1>
+
       <p style={{ marginBottom: "2rem", fontSize: "1rem", color: "#333" }}>
         Scroll through the PDF below. Use the button to open in a new tab and download if needed.
       </p>
 
-      <div
-        style={{
-          border: "1px solid #ccc",
-          borderRadius: "5px",
-          overflow: "hidden",
-        }}
-      >
-        <Document
-          file={resumeUrl}
-          onLoadSuccess={onDocumentLoadSuccess}
-          loading="Loading PDF..."
-        >
-          {Array.from(new Array(numPages), (el, index) => (
-            <Page
-              key={`page_${index + 1}`}
-              pageNumber={index + 1}
-              width={pageWidth}
-              renderTextLayer={true}
-              renderAnnotationLayer={false}
-            />
-          ))}
-        </Document>
+      {/* Responsive PDF iframe */}
+      <div style={{ width: "100%", height: "100vh", border: "1px solid #ccc" }}>
+        <iframe
+          src={resumeUrl}
+          title="Resume"
+          style={{ width: "100%", height: "100%", border: "none" }}
+        ></iframe>
       </div>
 
+      {/* Download Button */}
       <div style={{ marginTop: "2rem", marginBottom: "3rem" }}>
         <a
           href={resumeUrl}
@@ -86,7 +52,3 @@ export default function Resume() {
     </div>
   );
 }
-
-
-
-
