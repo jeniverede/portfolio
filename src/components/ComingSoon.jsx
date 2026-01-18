@@ -22,10 +22,10 @@ function ComingSoon() {
           fontFamily: 'Poppins, sans-serif', // only headline uses Poppins
         }}
       >
-        ✨ Portfolio Redesign Coming Soon! ✨
+        ✨ Portfolio Redesign in Progress! ✨
       </h1>
       <p style={{ fontSize: '1.2rem' }}>
-        Check back soon for the new look!
+        Check back for the new look!
       </p>
     </div>
   );
