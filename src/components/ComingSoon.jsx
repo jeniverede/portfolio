@@ -8,7 +8,7 @@ function ComingSoon() {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        fontFamily: 'sans-serif',
+        fontFamily: 'Poppins, sans-serif',
         textAlign: 'center',
         padding: '2rem',
         background: 'linear-gradient(135deg, #6a5acd, #e6e6fa)',
