@@ -11,7 +11,7 @@ function ComingSoon() {
         fontFamily: 'sans-serif',
         textAlign: 'center',
         padding: '2rem',
-        background: 'linear-gradient(135deg, #a0a0a0, #e6e6fa)', // diagonal gradient
+        background: 'linear-gradient(135deg, #6a5acd, #e6e6fa)',
         color: '#333', // readable text color
       }}
     >
