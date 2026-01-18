@@ -1,30 +1,35 @@
-/* deployed on Netlify branch dev */
 import './App.css';
 import './Typography.css';
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom"; // commented out for now
 
+// /* components imports */
+// import Nav from "./components/Nav";
+// import Home from "./components/Home";
+// import Contact from "./components/Contact";
+// import Footer from "./components/Footer";
+// import NotFound from "./components/NotFound";
+// import { BackToTop } from './components/BackToTop';
 
-/* components imports */
-import Nav from "./components/Nav";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import NotFound from "./components/NotFound";
-import { BackToTop } from './components/BackToTop';
+// /* page/components imports */
+// import MuseumGuideBerlin from "./components/MuseumGuideBerlin";
+// import TierheimBerlin from './components/TierheimBerlin';
+// import SecondhandShadows from './components/SecondhandShadows';
+// import CollectionDigital from './components/CollectionDigital';
+// import BrightStoneCeramics from './components/BrightStoneCeramics';
+// import MourningMemoryMemento from './components/MourningMemoryMemento';
+// import GithubPortfolio from './components/GithubPortfolio';
+// import PrivacyPolicy from "./components/PrivacyPolicy";
+// import Impressum from "./components/Impressum";
+// import Resume from "./components/Resume";
 
-/* page/components imports */
-import MuseumGuideBerlin from "./components/MuseumGuideBerlin";
-import TierheimBerlin from './components/TierheimBerlin';
-import SecondhandShadows from './components/SecondhandShadows';
-import CollectionDigital from './components/CollectionDigital';
-import BrightStoneCeramics from './components/BrightStoneCeramics';
-import MourningMemoryMemento from './components/MourningMemoryMemento';
-import GithubPortfolio from './components/GithubPortfolio';
-import PrivacyPolicy from "./components/PrivacyPolicy";
-import Impressum from "./components/Impressum";
-import Resume from "./components/Resume";
+import ComingSoon from './components/ComingSoon';
 
 function App() {
+  // Temporary coming soon page
+  return <ComingSoon />;
+
+  /*
+  // Original app code (kept for future)
   return (
     <div className='center'>
       <Nav />
@@ -47,7 +52,9 @@ function App() {
       <BackToTop/>
     </div>
   );
+  */
 }
 
 export default App;
+
 
