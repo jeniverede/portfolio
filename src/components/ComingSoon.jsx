@@ -27,6 +27,12 @@ function ComingSoon() {
       <p style={{ fontSize: '1.2rem' }}>
         Check back for the new look!
       </p>
+      <p style={{ fontSize: '1.4rem' }}>
+        Visit my WordPress Portfolio site at{' '}
+        <a href="https://rothrockportfolio.com" target="_blank" rel="noopener noreferrer">
+          rothrockportfolio.com
+        </a>
+      </p>
     </div>
   );
 }
