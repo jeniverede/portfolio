@@ -15,7 +15,13 @@ function ComingSoon() {
         color: '#333', // readable text color
       }}
     >
-      <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>
+      <h1
+        style={{
+          fontSize: '3rem',
+          marginBottom: '1rem',
+          fontFamily: 'Poppins, sans-serif', // only headline uses Poppins
+        }}
+      >
         ✨ Portfolio Redesign Coming Soon! ✨
       </h1>
       <p style={{ fontSize: '1.2rem' }}>
@@ -26,5 +32,6 @@ function ComingSoon() {
 }
 
 export default ComingSoon;
+
 
 
